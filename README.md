@@ -22,63 +22,16 @@
 <br>
 <br>
 
-![core-features](https://raw.githubusercontent.com/CreateTechified/Modpack/main/assets_gh/core_features_resized.png)
-<br>
-1. Create Mod Integration:
-The modpack heavily incorporates the Create mod, allowing players to engineer intricate automation systems, design complex machinery, and manage production chains.
-
-2. Exploration and Adventure:
-With a focus on exploration, the modpack includes expansive worlds and biomes. Players will uncover resources, structures, and challenges while building their tech empire.
-
-3. Automation Gameplay:
-A significant emphasis is placed on automating processes. Players can leverage Create's kinetic mechanisms and integrate other tech mods to streamline production and resource management.
-
-4. Guided Questline:
-A structured questline helps players learn mod interactions, from basic automation setups to advanced machinery. The quests serve as both a tutorial and a checklist of achievements.
-
-5. Endgame Goal:
-*not decided yet*
-<br>
-<br>
-
-![info](https://raw.githubusercontent.com/CreateTechified/Modpack/main/assets_gh/info_resized.png)
-<br>
-# World and Gameplay Overview
-*Create: Techified* transports players to a world where engineering ingenuity shapes the very foundation of progress. Designed for those who thrive on crafting intricate systems and exploring technological frontiers, the modpack combines innovation with a sense of discovery.
-
-The world is rich with resources, offering both familiar ores and unique materials essential for advancing your industrial empire. Biomes and structures have been customized to provide a sense of wonder and reward as you explore. From dense forests hiding ancient mechanisms to sprawling deserts with rare treasures, the environment beckons you to uncover its secrets.
-
-# Progression Pathway
-Your journey begins with simple tools and manual labor, but it quickly evolves into a symphony of gears, belts, and mechanical brilliance. As you progress:
-
-> *Early Game:* Learn the fundamentals of Create, mastering rotational power, basic automation, and simple contraptions.
-> *Mid-Game:* Unlock advanced technologies, integrate multiple systems, and streamline production chains.
-> *Late Game:* Design monumental machinery and tackle complex challenges that push your engineering skills to their peak.
-A questline serves as your guide, presenting logical steps while leaving room for creativity and experimentation.
-
-# Exploration and Adventure
-Exploration in *Create: Techified* isn’t just about gathering resources—it’s an essential aspect of progression. Custom dungeons, ruins, and biomes reward adventurers with rare loot, knowledge, and blueprints to elevate their builds. Dynamic weather and environmental events add layers of challenge and immersion.
-
-# Automation Meets Creativity
-What sets *Create: Techified* apart is its emphasis on creative problem-solving. Unlike traditional tech mods that rely on menus and wires, this modpack encourages players to think visually and mechanically. Machines aren’t just functional—they’re part of the aesthetic and storytelling of your world.
-
-# Multiplayer Fun
-The modpack is built with collaboration in mind. Whether you’re competing with friends to build the most efficient factory or working together to create a sprawling city of interconnected systems, *Create: Techified* shines in multiplayer settings.
-
-# Endgame Goal
-At the heart of the modpack lies a challenge that embodies the spirit of innovation. Your ultimate goal is to engineer a groundbreaking creation—one that will leave a lasting mark on the world you’ve built. The specifics? That’s for you to discover.
-<br>
-<br>
-
-![intro](https://raw.githubusercontent.com/CreateTechified/Modpack/main/assets_gh/intro_resized.png)
-<br>
-*Welcome to Create: Techified*
-
-Embark on a thrilling journey into a world where engineering meets adventure. Built around the innovative mechanics of the *Create* mod, *Create: Techified* challenges you to rethink automation and resource management as you dive into a quest-filled, tech-driven experience.
-
-From humble beginnings, master the art of kinetic power, design intricate machines, and conquer logistical puzzles. Along the way, explore expansive landscapes, uncover hidden treasures, and unlock technologies that will revolutionize your world.
-
-But your journey doesn't stop there. The ultimate goal lies on the horizon—an engineering marvel that will test the limits of your creativity and ingenuity. Can you harness the power of technology to achieve the extraordinary?
-
-The future is yours to create.
-
+<h3><strong>About</strong></h3>
+    <p>Create Techified is a collection of many great mods and implements them with Create in some way, compiled into an epic journey towards Quantum Advancement.<br />
+       With many factories lying between You and The Quantum Realm, it's your mission to make the most out of your factories.<br />
+       Tired of staying in the industrial environment? Fear not! The world offers many adventures for you.
+    </p>
+    <p>&nbsp;</p>
+    <h3><strong>Features</strong></h3>
+    <p><strong>1. Storage Options:</strong> Storing all your messy items is easier than ever. From Applied Energistics 2 to Refined Storage to ...Create? The choice is yours</p>
+    <p><strong>2. Optional Quests:</strong> Got stuck? The Quest Book got you covered! Ready to guide you through your journey</p>
+    <p><strong>3. Tinker's Integration:</strong> The early game is very modified, making tools is now more unique than ever thanks to Tinker's Construct.</p>
+    <p><strong>4. Upgrade your Factories while you progress:</strong> While progressing through the modpack, there are many opportunities to upgrade your factories with new machines and more!</p>
+    <p>&nbsp;</p>
+    <p>So, if you were looking for an expert create modpack, this might just be for you!</p>
