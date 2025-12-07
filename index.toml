@@ -2930,7 +2930,15 @@ hash = "56d90d2ca21d8118a58357f91a772665cb67fc7228ce1bed1f1ab812be97f153"
 
 [[files]]
 file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
-hash = "5bcb5594304cac76e3f62f84ee02589cd330a597a918e4515f1b58c96a968149"
+hash = "ca3897f6b768e13b82489acc871b43316842d4d4e8da9809f0f97efeb14a0a3b"
+
+[[files]]
+file = "kubejs/assets/questing/textures/blackbg.png"
+hash = "2e71f7f902bc6957468523806f78ae42418b5930ec4e0a56c1a8a3ba0af0dcd8"
+
+[[files]]
+file = "kubejs/assets/questing/textures/stars2.png"
+hash = "60ee92414131d63f9567f824f401263452c8c7fc9248769f71732f2e2c8c5807"
 
 [[files]]
 file = "kubejs/client_scripts/addthehiddenstuff.js"
