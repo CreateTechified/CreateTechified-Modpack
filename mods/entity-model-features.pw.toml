@@ -1,0 +1,13 @@
+name = "[EMF] Entity Model Features [Fabric & Forge]"
+filename = "entity_model_features_1.20.1-forge-3.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "0ec6ce36f712accf8fb89ce7213602957e22e5980d4a97873e405f6b0272fa44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6922712
+project-id = 844662

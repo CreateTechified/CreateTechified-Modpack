@@ -1,7 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "7561C9C702F04D5D", title: "Market" }
-		{ id: "4C9878C9CE67B9E8", title: "Main Quests" }
-		{ id: "0E07056EFBE12555", title: "Miscellaneous" }
+		{ id: "2D007E8714384E03", title: "&lMarket" }
+		{ id: "36F144C26FB8788B", title: "&lMain Questline" }
+		{ id: "656E41FF236CAAAE", title: "&lMiscellaneous" }
+		{ id: "3E3560FC912EE8E9", title: "&lMod Specific Questlines" }
 	]
 }

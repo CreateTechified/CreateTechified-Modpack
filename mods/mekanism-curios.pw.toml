@@ -1,0 +1,13 @@
+name = "Mekanism Curios"
+filename = "mekanismcurios-1.20.1-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "b597995eb4cea127576fc1a7d9f9f8e98a89f50352f52cfd1ffaccb2699ee9fe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6602972
+project-id = 1251061

@@ -1,0 +1,13 @@
+name = "Redstone Torch Backport Supporter"
+filename = "RST Backport Supporter §cv1.3§r.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "29173d09aafa29f3e48841c300afeb40287c4765f2cb49d897199d805e887c43"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6250577
+project-id = 1086287

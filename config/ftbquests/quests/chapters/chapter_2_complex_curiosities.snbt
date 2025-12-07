@@ -2,20 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_2_complex_curiosities"
-	group: "4C9878C9CE67B9E8"
+	group: "36F144C26FB8788B"
 	icon: "create:precision_mechanism"
-	id: "6DEAAC3A781E2BB7"
+	id: "2E1E152131D2ABA0"
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["39398751E4BDAE17"]
 		icon: "techifiedcore:kinetic_mechanism"
-		id: "6A8EA5A377954FAA"
+		id: "1189CEF67E50369F"
 		shape: "rsquare"
 		size: 2.0d
-		subtitle: "Path towards precision mechanism"
+		subtitle: "Path towards The Precision Mechanism"
 		tasks: [{
-			id: "709C7017C210FC8D"
-			title: "Start!"
+			id: "7A2652244D657617"
 			type: "checkmark"
 		}]
 		title: "Chapter 2"

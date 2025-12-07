@@ -2,11 +2,25 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_4_industrial_revolution_again"
-	group: "4C9878C9CE67B9E8"
+	group: "36F144C26FB8788B"
 	icon: "techifiedcore:industrial_mechanism"
-	id: "126A98FA103765C7"
+	id: "5A41D5B429B07443"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["18AA8C3060BC86EC"]
+		icon: "techifiedcore:t1_radiant_mechanism"
+		id: "3B48EEF29CDA56A3"
+		shape: "rsquare"
+		size: 2.0d
+		subtitle: "Path towards The Industrial Mechanism"
+		tasks: [{
+			id: "5B9E4A2CD5104118"
+			type: "checkmark"
+		}]
+		title: "Chapter 4"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Chapter 4: Industrial Revolution Again?"
 }

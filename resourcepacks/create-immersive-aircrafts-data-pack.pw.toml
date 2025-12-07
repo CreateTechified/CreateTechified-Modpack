@@ -1,0 +1,13 @@
+name = "Create Immersive Aircrafts - Recipes"
+filename = "Create Immersive Aircrafts Datapack 1.20.1 - 1.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "a4e8daecca7fc916cfa1692df546a83054d39c9adebb48dfcac9b4e46692bc08"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5601088
+project-id = 870545

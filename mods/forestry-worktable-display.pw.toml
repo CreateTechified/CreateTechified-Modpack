@@ -1,0 +1,13 @@
+name = "Forestry: Worktable Display"
+filename = "forestryworktabledisplay-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "ed01968a24d565cfa69f3c8a1f0a05709d878cb42c018e55572925b3bf261044"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6047609
+project-id = 1170276

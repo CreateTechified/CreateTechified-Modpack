@@ -1,13 +1,15 @@
 
 [display]
-	#Mode for drawing a background behind entries for better visibility. 'BLACK' is similar to the chat background, 'TOOLTIP' uses the tooltip background rendering instead.
-	#Allowed Values: NONE, BLACK, TOOLTIP
-	background = "NONE"
 	#Should the picked up amount be shown when it's just a single item.
 	display_single_count = true
 	#Add the total amount of an item in your inventory to the entry.
 	inventory_count = false
-	#Where to display the amount of items picked up. 'SPRITE' will render the amount on the item sprite like in inventories, 'TEXT' will add a dedicated text including the amount to the item name display.
+	#Mode for drawing a background behind entries for better visibility. 'CHAT' is similar to the chat background, 'TOOLTIP' uses the tooltip background rendering instead.
+	#Allowed Values: NONE, CHAT, TOOLTIP
+	entry_background = "NONE"
+	#Add the name of the item to the entry.
+	display_item_name = true
+	#Where and if to display the amount of items picked up. 'SPRITE' will render the amount on the item sprite like in inventories, 'TEXT' will add a dedicated text including the amount to the item name display.
 	#Allowed Values: OFF, SPRITE, TEXT, BOTH
 	display_amount = "TEXT"
 	#Show a small sprite next to the name of each entry showing its contents.
@@ -51,7 +53,8 @@
 
 [behavior]
 	#Combine entries of the same type instead of showing each one individually.
-	combine_entries = true
+	#Allowed Values: ALWAYS, NEVER, EXCLUDE_NAMED
+	combine_entries = "EXCLUDE_NAMED"
 	#Amount of ticks each entry will be shown for. Set to 0 to only remove entries when space for new ones is needed.
 	#Range: > 0
 	display_time = 80

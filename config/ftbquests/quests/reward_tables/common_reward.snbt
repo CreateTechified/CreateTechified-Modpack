@@ -1,8 +1,16 @@
 {
-	icon: "minecraft:chest"
-	id: "56ED5A2EE70EC034"
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:iron_chest"
+		tag: {
+			RepairCost: 0
+			accentColor: 16383998
+			mainColor: 16383998
+		}
+	}
+	id: "4C52F08C8DA10CAF"
 	loot_size: 1
-	order_index: 0
+	order_index: 4
 	rewards: [ ]
 	title: "Common Reward"
 }

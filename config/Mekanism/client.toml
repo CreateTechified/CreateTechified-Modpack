@@ -22,7 +22,7 @@
 	#Range: 0.25 ~ 1.0
 	hudScale = 0.6
 	#Enable item information HUD during gameplay
-	enableHUD = false
+	enableHUD = true
 	#Color of energy in item durability display.
 	energyColor = 3997338
 	#Range at which Tile Entity Renderer's added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for TERs to 64 for most blocks, but uses a range of 256 for beacons and end gateways.
@@ -51,11 +51,14 @@
 		#Opacity of HUD used by MekaSuit.
 		#Range: 0.0 ~ 1.0
 		hudOpacity = 0.4000000059604645
-		#Color of HUD used by MekaSuit.
+		#Color (RGB) of HUD used by MekaSuit.
+		#Range: 0 ~ 16777215
 		hudColor = 4257264
-		#Color of warning HUD elements used by MekaSuit.
+		#Color (RGB) of warning HUD elements used by MekaSuit.
+		#Range: 0 ~ 16777215
 		hudWarningColor = 16768335
-		#Color of danger HUD elements used by MekaSuit.
+		#Color (RGB) of danger HUD elements used by MekaSuit.
+		#Range: 0 ~ 16777215
 		hudDangerColor = 16726076
 		#Visual jitter of MekaSuit HUD, seen when moving the player's head. Bigger value = more jitter.
 		#Range: 1.0 ~ 100.0
@@ -99,16 +102,16 @@
 				y = 2147483647
 
 			[client.gui.window.sideConfig]
-				x = 2147483647
-				y = 2147483647
+				x = 10
+				y = 15
 
 			[client.gui.window.transporterConfig]
-				x = 2147483647
-				y = 2147483647
+				x = 112
+				y = 15
 
 			[client.gui.window.upgrade]
-				x = 2147483647
-				y = 2147483647
+				x = 202
+				y = 3
 
 	#QIO Config
 	[client.qio]

@@ -1,0 +1,14 @@
+
+#General settings
+[general]
+	#The CurseForge project ID for the modpack
+	#Range: > 0
+	modpackProjectID = 0
+	#The name of the modpack
+	modpackName = "Create: Techified"
+	#The version of the modpack
+	modpackVersion = "DEVELOPMENT COPY | DO NOT DISTRIBUTE"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+

@@ -1,0 +1,13 @@
+name = "Towns and Towers"
+filename = "Towns-and-Towers-1.12-Fabric+Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "9c8115af7109579da990249fdd67b38323a45be70f8a3a962b61da69c7021984"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4923828
+project-id = 626761

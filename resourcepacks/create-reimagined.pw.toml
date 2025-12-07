@@ -1,0 +1,13 @@
+name = "Create: Reimagined"
+filename = "Create Utility.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "fe5b288d6e9d983a361bf77a2586150825359d5fe437696d90ec10e3661622f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6690242
+project-id = 1293279

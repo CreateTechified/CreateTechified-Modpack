@@ -1,0 +1,13 @@
+name = "Excalibur | Farmer's Delight Support"
+filename = "FarmersDelightExcaliburSupport.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "9e252c339896bda0025e5239eda65346d5e027d2caa4b84f9629679a0931c2e4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5654503
+project-id = 1089090

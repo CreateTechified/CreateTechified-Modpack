@@ -1,0 +1,16 @@
+{
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:gold_chest"
+		tag: {
+			RepairCost: 0
+			accentColor: 16701501
+			mainColor: 16701501
+		}
+	}
+	id: "392096D7080681B3"
+	loot_size: 1
+	order_index: 2
+	rewards: [ ]
+	title: "&eUncommon Reward&r"
+}

@@ -1,0 +1,13 @@
+name = "Kubejs C:C&A"
+filename = "kubejsca-1.20.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "7182215cfc1c6bf910ea952275a538a4e8eed91b496dafde05495801ca6182a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6798970
+project-id = 1311892

@@ -1,0 +1,1209 @@
+{
+	autofocus_id: "5B9B8DB6B9F7669E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_upgrades"
+	group: "656E41FF236CAAAE"
+	icon: "sophisticatedbackpacks:stack_upgrade_tier_1"
+	id: "56AC7C1855C64565"
+	images: [
+		{
+			height: 4.0d
+			image: "create_techified:textures/quests/sophisticated_upgrades.png"
+			rotation: 0.0d
+			width: 20.28d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 2.0d
+			image: "create_techified:textures/quests/sophisticated_storage.png"
+			rotation: 0.0d
+			width: 9.58d
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "create_techified:textures/quests/sophisticated_backpack.png"
+			rotation: 0.0d
+			width: 9.58d
+			x: 10.5d
+			y: -4.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["329340DC07C8A043"]
+			description: ["Sophisticated Backpacks offers many upgrades to increase the funtionality of your backpack. Let's look at some of those upgrades."]
+			hide_dependent_lines: true
+			id: "1957136F5784DBC0"
+			size: 1.5d
+			tasks: [{
+				id: "611ED2B6F11C94DB"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Sophisticated Backpack Upgrades"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26C2B0BDD66038AA"]
+			description: ["Sophisticated Storage offers many upgrades to increase the funtionality of your storage. Let's look at some of those upgrades."]
+			hide_dependent_lines: true
+			id: "496AAE428D08F1F6"
+			size: 1.5d
+			tasks: [{
+				id: "1B2FA032461DC7D5"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			title: "Sophisticated Storage Upgrades"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Any item you pickup can go straight into your backpack!"]
+			id: "262281C80497E180"
+			tasks: [{
+				id: "1E4C4E3FC6EED60B"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["262281C80497E180"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "3A8D0E88D47E4C7E"
+			tasks: [{
+				id: "3F8BD9AA85FD7DA3"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Allows filtering of IO for backpacks."]
+			id: "66AF38BA474E7FAE"
+			tasks: [{
+				id: "0D4E36742FE0EF01"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66AF38BA474E7FAE"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "2BE8EB659DB19EF2"
+			tasks: [{
+				id: "265E18E2077D98DA"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Attracts items towards the player and deposits them into the backpack."]
+			id: "5FC336DB49CB8C61"
+			tasks: [{
+				id: "470B36D41194578B"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FC336DB49CB8C61"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "4D8C6720CB6E971E"
+			tasks: [{
+				id: "2EFC52A2C71F4BBD"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["The backpack will feed you with food from its inventory."]
+			id: "3C79A83A93198D9A"
+			tasks: [{
+				id: "716E4856447FEEDF"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3C79A83A93198D9A"]
+			description: ["Just like its basic version, but you can adjust when the backpack will feed you."]
+			id: "20EAB4ECED68A6E6"
+			tasks: [{
+				id: "197BBD0528F25618"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["This upgrade will automatically compact items into their compressed form! The basic one only supports 2x2 recipes."]
+			id: "59E388FA1338DCB7"
+			tasks: [{
+				id: "75703B52963EEE77"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59E388FA1338DCB7"]
+			description: ["Just like its basic version, but it now it can do both 2x2 and 3x3 recipe."]
+			id: "701B7304129FD8C7"
+			tasks: [{
+				id: "385CF7EFC080597E"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["This upgrade, as the name suggests can void filtered items."]
+			id: "3BF3CAD712474B9E"
+			tasks: [{
+				id: "0DD3FBBE03EE433B"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BF3CAD712474B9E"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "79F0E917EB1DA65B"
+			tasks: [{
+				id: "1717C1AAA15B7DA0"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["The restock upgrade allows you to restock your backpack from sneak right clicked inventory."]
+			id: "425610B5162B845F"
+			tasks: [{
+				id: "060922C7FC858168"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["425610B5162B845F"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "2D31AAC384F922B8"
+			tasks: [{
+				id: "4192F1F0C5B0BB2A"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["The deposit upgrade allows you to deposit the entirety of the backpack's inventory into a sneak right clicked inventory."]
+			id: "6CDFC748D7FD277D"
+			tasks: [{
+				id: "7D3078D7E7BEB2D7"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CDFC748D7FD277D"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "47C685A0FCFE647B"
+			tasks: [{
+				id: "212AB733D528DA2A"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["With this upgrade, your backpack will keep on refilling stack of selected item in your inventory."]
+			id: "4FA9A79F85079C1F"
+			tasks: [{
+				id: "60D98DCF7972D923"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4FA9A79F85079C1F"]
+			description: ["Just like its basic version, with the added functionality of more precise target slot selections and the ability to now being able to middle click for picking blocks from backpack."]
+			id: "640D2AE96E0C93AF"
+			tasks: [{
+				id: "301E508D7F6EF4A2"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "2070C4D06C333BDD"
+			tasks: [{
+				id: "7E1F5C59DD2EC6C2"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "15A1790FDC19D4B5"
+			tasks: [{
+				id: "6F0FA586C4733FFA"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Adds a furnace tab in your backpack."]
+			id: "36C7775B87C81550"
+			tasks: [{
+				id: "01BBC5B1D6E8DF1D"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36C7775B87C81550"]
+			description: ["Just like its basic version, with the added functionality of being able to automatically pull and push items."]
+			id: "399C79220205424B"
+			tasks: [{
+				id: "6B1CE28DEA99C011"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Adds a smoker tab in your backpack."]
+			id: "7B09591207FC772D"
+			tasks: [{
+				id: "3AC221296855D134"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B09591207FC772D"]
+			description: ["Just like its basic version, with the added functionality of being able to automatically pull and push items."]
+			id: "09AB1F8D2A5C5171"
+			tasks: [{
+				id: "3ACF307B963C1C50"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Adds a blasting tab in your backpack."]
+			id: "7DA5FD1DB1DD5282"
+			tasks: [{
+				id: "37756C7CF03380BD"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DA5FD1DB1DD5282"]
+			description: ["Just like its basic version, with the added functionality of being able to automatically pull and push items."]
+			id: "7A30EC50AF9AEBF9"
+			tasks: [{
+				id: "18BF14023ECEB0E7"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Adds a crafting tab in your backpack."]
+			id: "61297627D8E35CBA"
+			tasks: [{
+				id: "7BB6EA31C728CE7F"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Adds a stonecutter tab in your backpack."]
+			id: "34941A98B4B5239F"
+			tasks: [{
+				id: "7C4D3B8FF6AE9F08"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "708E8DABB042A765"
+			optional: true
+			tasks: [{
+				id: "2F6E90374A45FB31"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "3BACB636963B57A5"
+			tasks: [{
+				id: "568F728F77881C92"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BACB636963B57A5"]
+			id: "3FA0B8D0988B1979"
+			tasks: [{
+				id: "5B66F8FB5899EBBE"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3FA0B8D0988B1979"]
+			id: "2F60B639EC406BB0"
+			tasks: [{
+				id: "616FFC9B21B76490"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F60B639EC406BB0"]
+			id: "408DC698BA9370B5"
+			tasks: [{
+				id: "731C100A3D79043B"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["408DC698BA9370B5"]
+			id: "388F59A40840A74E"
+			tasks: [{
+				id: "48EC600E4311041A"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "5FF58749E8568267"
+			tasks: [{
+				id: "3BCE0E1E3EEFA018"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_1"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "1392BA96FAD73693"
+			tasks: [{
+				id: "4D1C817CD09D8FD3"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_2"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "40C6CBB50B9FB470"
+			tasks: [{
+				id: "2B056671BB64D93D"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_3"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Adds a jukebox tab in your backpack."]
+			id: "07A6D3FE31765FFA"
+			tasks: [{
+				id: "08B1AF37A906896A"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07A6D3FE31765FFA"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "236183520D8D3123"
+			tasks: [{
+				id: "18FB9CCC72AA751C"
+				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "6E215710C8E8F1D1"
+			tasks: [{
+				id: "737D1159BF2ADA61"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E215710C8E8F1D1"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "585516C1F7527C76"
+			tasks: [{
+				id: "47BEB17DAEF1E0D2"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "6F97CF41C2D2D73C"
+			tasks: [{
+				id: "756E68ED56E1A514"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "6F438F3E409049DF"
+			tasks: [{
+				id: "66FBF4DF2E211175"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "7E9BC8FF02F2F158"
+			tasks: [{
+				id: "58D533C95199FE2F"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E9BC8FF02F2F158"]
+			id: "580B5A7E0E0776B0"
+			tasks: [{
+				id: "7BBE47DAD374C730"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["580B5A7E0E0776B0"]
+			id: "07B038EADFE45EC7"
+			tasks: [{
+				id: "45617AA80FCA100E"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Adds an anvil tab in your backpack."]
+			id: "7DD7B2C775B8B7AD"
+			tasks: [{
+				id: "316E73CF08F9BAAA"
+				item: "sophisticatedbackpacks:anvil_upgrade"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			description: ["Adds a smithing tab in your backpack."]
+			id: "56BEC7F254976B41"
+			tasks: [{
+				id: "0335DEAABB84A48D"
+				item: "sophisticatedbackpacks:smithing_upgrade"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "25D0765E5F1E59F9"
+			tasks: [{
+				id: "10D86215B920FA7B"
+				item: "sophisticatedbackpacks:chipped/botanist_workbench_upgrade"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "632953AAA9A3E276"
+			tasks: [{
+				id: "461C8ED95661D925"
+				item: "sophisticatedbackpacks:chipped/glassblower_upgrade"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "2AD23A7A408AACE6"
+			tasks: [{
+				id: "5B1EB77077E9CF46"
+				item: "sophisticatedbackpacks:chipped/loom_table_upgrade"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "683C7EEF61EB58FB"
+			tasks: [{
+				id: "38AA8CFDD18B9ED1"
+				item: "sophisticatedbackpacks:chipped/carpenters_table_upgrade"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "71A775C054398B31"
+			tasks: [{
+				id: "6A602E0DA6FFE91B"
+				item: "sophisticatedbackpacks:chipped/mason_table_upgrade"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "40536F73E9026121"
+			tasks: [{
+				id: "3B34328EEE4DF215"
+				item: "sophisticatedbackpacks:chipped/alchemy_bench_upgrade"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1957136F5784DBC0"]
+			id: "7118B37A87AFB1B9"
+			tasks: [{
+				id: "3667815B7EB76694"
+				item: "sophisticatedbackpacks:chipped/tinkering_table_upgrade"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "7BEADE310366060F"
+			tasks: [{
+				id: "592CA219FCA3848F"
+				item: "sophisticatedstorage:pickup_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BEADE310366060F"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "0F4D5F05014AEEAE"
+			tasks: [{
+				id: "2E5598E5E929ADF2"
+				item: "sophisticatedstorage:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "41F80C9967D26B38"
+			tasks: [{
+				id: "52995DC7BFEE1034"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["41F80C9967D26B38"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "6DF3AE2B241E5DD7"
+			tasks: [{
+				id: "39C3A8A11255B1A3"
+				item: "sophisticatedstorage:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "1BB60D644AA710BA"
+			tasks: [{
+				id: "2E4DA4811065909F"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BB60D644AA710BA"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "732B187D07877136"
+			tasks: [{
+				id: "6C5E8841EBFED566"
+				item: "sophisticatedstorage:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "332D56E01160C7AF"
+			tasks: [{
+				id: "014DBE93E36EF8F7"
+				item: "sophisticatedstorage:feeding_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["332D56E01160C7AF"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "4F55D5063BCB5BC3"
+			tasks: [{
+				id: "4AE1AA7C00995E2D"
+				item: "sophisticatedstorage:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "2B23643C35489F10"
+			tasks: [{
+				id: "51373209DE94512A"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B23643C35489F10"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "6BB582FDEB195AE6"
+			tasks: [{
+				id: "67FC2E591A52B483"
+				item: "sophisticatedstorage:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "22E7051994BC4BEA"
+			tasks: [{
+				id: "5815EF722EDEE530"
+				item: "sophisticatedstorage:compacting_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22E7051994BC4BEA"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "3F96ACF22BC7B0FF"
+			tasks: [{
+				id: "26D8C28580C85AF9"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "62A04F61C24133C9"
+			tasks: [{
+				id: "7D244D2979F6C690"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62A04F61C24133C9"]
+			description: ["Just like its basic version, with the added functionality of being able to automatically pull and push items."]
+			id: "02EA30197B1DB8C5"
+			tasks: [{
+				id: "70F17A8700BAD427"
+				item: "sophisticatedstorage:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "4B491781F0E77BF8"
+			tasks: [{
+				id: "65E37408E15614AC"
+				item: "sophisticatedstorage:smoking_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B491781F0E77BF8"]
+			description: ["Just like its basic version, with the added functionality of being able to automatically pull and push items."]
+			id: "22A4AEDFA6F43B15"
+			tasks: [{
+				id: "2BC25E45588F529A"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "01A04C1C8598BCFA"
+			tasks: [{
+				id: "72035F0C2C74506C"
+				item: "sophisticatedstorage:blasting_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01A04C1C8598BCFA"]
+			description: ["Just like its basic version, with the added functionality of being able to automatically pull and push items."]
+			id: "626969A29F9A642E"
+			tasks: [{
+				id: "7FB8F81F51DBD608"
+				item: "sophisticatedstorage:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "227D2F4C2C5E639F"
+			tasks: [{
+				id: "5A61451FE43F8642"
+				item: "sophisticatedstorage:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["227D2F4C2C5E639F"]
+			description: ["Just like its basic version, with the added functionality of advanced filtering."]
+			id: "625E7027C63CA7FD"
+			tasks: [{
+				id: "16AA5D1E45F8D13D"
+				item: "sophisticatedstorage:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "3084BBF7E6B2D7F7"
+			tasks: [{
+				id: "2D79A130B73AD9BB"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3084BBF7E6B2D7F7"]
+			id: "090285481B075B05"
+			optional: true
+			tasks: [{
+				id: "4664C38BBDDA2DBF"
+				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3084BBF7E6B2D7F7"]
+			id: "7D3967649D2FA7E8"
+			tasks: [{
+				id: "6954CD9A3BA21E8E"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D3967649D2FA7E8"]
+			id: "774DAB60D849257F"
+			tasks: [{
+				id: "706C2B409F6ACD3D"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["774DAB60D849257F"]
+			id: "7B218B45E866DEAA"
+			tasks: [{
+				id: "1ECED5E530D85339"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B218B45E866DEAA"]
+			id: "63D9D34DA46CD3EE"
+			tasks: [{
+				id: "024708BF22C44D16"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63D9D34DA46CD3EE"]
+			id: "72A4ED84FC369F2C"
+			tasks: [{
+				id: "4A43AAB734374B7E"
+				item: "sophisticatedstorage:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "268D3E40CAD945F3"
+			tasks: [{
+				id: "52B3ED83F5A5F0DC"
+				item: "sophisticatedstorage:stack_downgrade_tier_1"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["268D3E40CAD945F3"]
+			id: "5933506DB37984EC"
+			tasks: [{
+				id: "3658740476661C5B"
+				item: "sophisticatedstorage:stack_downgrade_tier_2"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5933506DB37984EC"]
+			id: "56C3AED71869526A"
+			tasks: [{
+				id: "1EB384FD973FBAB6"
+				item: "sophisticatedstorage:stack_downgrade_tier_3"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "0A1E7BE211638767"
+			tasks: [{
+				id: "2DD500F98FF3A473"
+				item: "sophisticatedstorage:chipped/botanist_workbench_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "2EDB3483CFEC3D20"
+			tasks: [{
+				id: "644664FA1EE7B1B6"
+				item: "sophisticatedstorage:chipped/glassblower_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "1EB842A4C6A77233"
+			tasks: [{
+				id: "6A5097078535B526"
+				item: "sophisticatedstorage:chipped/carpenters_table_upgrade"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "56C451F6528930ED"
+			tasks: [{
+				id: "492650C59A093F90"
+				item: "sophisticatedstorage:chipped/loom_table_upgrade"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "54D4B5484B561813"
+			tasks: [{
+				id: "28C34D9A301E62F7"
+				item: "sophisticatedstorage:chipped/mason_table_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "2A63FA21ECF9BA0B"
+			tasks: [{
+				id: "3E52CF5AAF0B1584"
+				item: "sophisticatedstorage:chipped/alchemy_bench_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "23EC4E0BD7F7B650"
+			tasks: [{
+				id: "396F6B3783AE4698"
+				item: "sophisticatedstorage:chipped/tinkering_table_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "5D84C1320D4560BC"
+			tasks: [{
+				id: "659840D7BBD2B125"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "5DEB60F201263EC3"
+			tasks: [{
+				id: "6760003D058400C7"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "1BE514AD5CF8C908"
+			tasks: [{
+				id: "5BC3A0FFC555ED25"
+				item: "sophisticatedstorage:pump_upgrade"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BE514AD5CF8C908"]
+			id: "434F49493FEFB807"
+			tasks: [{
+				id: "15DD1501B93877E6"
+				item: "sophisticatedstorage:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["434F49493FEFB807"]
+			id: "379F16CA58962517"
+			tasks: [{
+				id: "418A4DB750B5C462"
+				item: "sophisticatedstorage:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["496AAE428D08F1F6"]
+			id: "461CBDB3D08DF452"
+			tasks: [{
+				id: "50B5751232BA2711"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This Quest is for Autofocusing of this chapter. It is therefore invisible."
+				"If you're seeing this, you are in editing mode."
+			]
+			icon: "immersive_aircraft:industrial_gears"
+			id: "5B9B8DB6B9F7669E"
+			secret: true
+			shape: "gear"
+			tasks: [{
+				id: "42E5FEF0E26DBBB8"
+				title: "Understood!"
+				type: "checkmark"
+			}]
+			title: "Autofocus Quest"
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "Sophisticated Upgrades"
+}

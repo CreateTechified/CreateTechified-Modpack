@@ -1,0 +1,13 @@
+name = "Sanguine Neural Networks [Hostile Neural Networks Addon]"
+filename = "SanguineNeuralNetworks-1.20.1-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "f44dd54ae2c9d787c91d8bd1e065fcaf80002c87e4374dd13f1f808a026d2552"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6899881
+project-id = 1111092

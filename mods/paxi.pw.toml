@@ -1,0 +1,13 @@
+name = "Paxi (Forge)"
+filename = "Paxi-1.20-Forge-4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "dd18dd9696d099137b170076676e8411e3d8385af15941f68472f21167266f1a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4749994
+project-id = 515708

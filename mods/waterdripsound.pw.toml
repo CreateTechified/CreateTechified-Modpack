@@ -1,0 +1,13 @@
+name = "[LEGACY] Drip Sounds (Forge)"
+filename = "DripSounds-1.19.4-0.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "bac12d4f22f571fc887bc662266c628b47fa296e41116de839dc8963051ed4ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4579519
+project-id = 390986

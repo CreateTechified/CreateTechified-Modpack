@@ -1,0 +1,13 @@
+name = "Lopy's Create Style Construction Wands"
+filename = "Create-Construction-Wands.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "fea69aef503cea24845ca3610f48fd9ec71c2bbba63cf46dacaffd9b7172aa97"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4655257
+project-id = 857512

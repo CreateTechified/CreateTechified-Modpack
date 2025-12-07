@@ -1,0 +1,13 @@
+name = "Redstone Clock"
+filename = "redstoneclock-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "7fcec630a1d9d1fa8723c29a8be343d7a370caffad2c122b60ea0e32cfb8a1d9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5387025
+project-id = 1028187

@@ -1,0 +1,13 @@
+name = "GUI Effect Timer"
+filename = "guieffecttimer-1.20.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "eaeaab53b267ea3f227e50fa7afcfb9948411aecf32ea42212ed9682d32afaae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6210467
+project-id = 1203979

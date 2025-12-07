@@ -1,0 +1,13 @@
+name = "Lootr Old Textures"
+filename = "Old Lootr Textures 1.20.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "0b90c937c537844912f27ebb02bc109a6eed60cdb72855bc3b2e2baef8cb82ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5666185
+project-id = 1091420

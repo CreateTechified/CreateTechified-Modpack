@@ -1,0 +1,951 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_05_a_new_beginning"
+	group: "36F144C26FB8788B"
+	icon: "minecraft:crafting_table"
+	id: "299AEE1B28333B2A"
+	images: [
+		{
+			height: 2.5d
+			image: "create_techified:textures/quests/chapter_0.5.png"
+			rotation: 0.0d
+			width: 12.425d
+			x: 8.5d
+			y: -14.0d
+		}
+		{
+			height: 7.0d
+			image: "create_techified:textures/quests/setup_thing.png"
+			rotation: 0.0d
+			width: 7.91d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "create_techified:textures/quests/placard.png"
+			rotation: -10.0d
+			width: 5.0d
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			height: 2.25d
+			image: "create:item/andesite_alloy"
+			rotation: -10.0d
+			width: 2.25d
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/chute_hole"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 4.0d
+			image: "create_techified:textures/quests/crushing_wheel.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 0.0d
+			width: 0.75d
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.35d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 11.22d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/belt"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.07d
+			y: -8.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AB785BD979B7D3C"]
+			description: [
+				"This quest relies on if you already know how to play the vanilla game and already have broken a tree. So, let's get started on Tinkers' Construct to make your first set of tools!"
+				""
+				"You will want to make a Crafting Table (the Tinkers' one is preferred), a Tinker Station, and a Part Builder."
+				""
+				"You will also need patterns, so why not make a couple of them while you're at it."
+			]
+			icon: "minecraft:crafting_table"
+			id: "4066870EE38C7920"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4DA63BE6FC0BA0A8"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:workbenches)"
+						}
+					}
+					title: "Any #forge:workbenches"
+					type: "item"
+				}
+				{
+					id: "6FCAB55394F76424"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "4811BB059128ACC9"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6F4EED7DD67C8966"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+			]
+			title: "A New Beginning"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4066870EE38C7920"]
+			id: "20ED2CF28BEE7321"
+			tasks: [{
+				advancement: "tconstruct:tools/make_part"
+				criterion: ""
+				id: "2E479C1735CC5988"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20ED2CF28BEE7321"]
+			id: "40BBFF846E93551B"
+			tasks: [{
+				advancement: "tconstruct:tools/tinker_tool"
+				criterion: ""
+				id: "7744A2B8A801E574"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40BBFF846E93551B"]
+			id: "0E209D1ECDCE00CA"
+			tasks: [{
+				id: "13EDDF7C788B6D08"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40BBFF846E93551B"]
+			icon: "minecraft:raw_iron"
+			id: "7E80FE53C1578280"
+			tasks: [
+				{
+					id: "2B6EB2BD56A49122"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "49F380ACE84C7ACE"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "3EA32E7CD9BA2E95"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "595A4F737DF97ED4"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			title: "Mining Time!"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7E80FE53C1578280"
+				"0E209D1ECDCE00CA"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "6E0F7CD6FFD69539"
+			tasks: [
+				{
+					id: "7B8F07DC00A91A51"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "48CDE10885955FA5"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "175D04EF8741592E"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Smelt em' up and more?"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E0F7CD6FFD69539"]
+			description: [
+				"Yeah I'm not even kidding, you just made your very first alloy! We're not gonna question how you just mixed andesite with iron nuggets with your hands."
+				""
+				"Now you can venture on into the great world of Create. Now hold you horses, there have been a couple modifications to a great deal of recipies to make them, a tad harder. So, let's make a Makeshift Kinetic Mechanism, and maybe a few water wheels while we're at it."
+			]
+			id: "627AB0ABC633DC7F"
+			rewards: [{
+				count: 16
+				id: "7EB7251256B26DE9"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57979C6E00F73694"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Baby's First Alloy"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"46F2DF6B10EDB257"
+				"627AB0ABC633DC7F"
+				"0BEEB4B0D792605B"
+			]
+			id: "233F5E84C03F839F"
+			tasks: [{
+				id: "5920EA2A31357A8C"
+				item: "techifiedcore:makeshift_kinetic_mechanism"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6E0F7CD6FFD69539"]
+			id: "46F2DF6B10EDB257"
+			tasks: [{
+				id: "3AC2F6402AA3ACA6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:saws)"
+					}
+				}
+				title: "Any #forge:saws"
+				type: "item"
+			}]
+			title: "Make a Saw"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"233F5E84C03F839F"
+				"31257A45B20717FF"
+			]
+			id: "1B079A4C5D0D07CA"
+			tasks: [{
+				id: "0C9E9BB9F108F9D7"
+				item: "techifiedcore:andesite_machine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["627AB0ABC633DC7F"]
+			id: "0BEEB4B0D792605B"
+			tasks: [{
+				id: "669952F6B817EA07"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["627AB0ABC633DC7F"]
+			id: "02A5A617FF3AF947"
+			tasks: [{
+				id: "78661C2E918094A5"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["627AB0ABC633DC7F"]
+			id: "31257A45B20717FF"
+			tasks: [{
+				id: "1E5FF829BAD62176"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B079A4C5D0D07CA"]
+			id: "56E3147151DFC075"
+			shape: "square"
+			size: 1.25d
+			tasks: [{
+				id: "7410B9FC1F9F5554"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["627AB0ABC633DC7F"]
+			description: [
+				"Moving stress units is fairly easy. Learn more about it here."
+				"{ \"text\": \"Moving Stress Units\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"08AEF3B6A697E356\" } }"
+			]
+			id: "09B7AA3B56C539AD"
+			tasks: [{
+				id: "7EB07C9CA87D332A"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Moving Stress Units"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["56E3147151DFC075"]
+			icon: "create:iron_sheet"
+			id: "0CB2886396834173"
+			tasks: [
+				{
+					id: "3F485357A56AAB59"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "0E6301EE9930BA27"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "2F54CF24249C8105"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+			]
+			title: "Press em' up"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0CB2886396834173"]
+			id: "0B49F1DB8C7EAFA3"
+			tasks: [{
+				id: "7AB9FA91022E37A3"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0CB2886396834173"]
+			id: "490E182B8659CF93"
+			tasks: [{
+				id: "1B47C05D5CF10CD2"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0CB2886396834173"]
+			id: "7FF1455C20521100"
+			tasks: [{
+				id: "664E52F3841F4754"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0B49F1DB8C7EAFA3"]
+			id: "2A59603A6CD076F1"
+			size: 1.25d
+			tasks: [{
+				id: "0DF18AC85F09AA8D"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["490E182B8659CF93"]
+			id: "4A4775963D6CB635"
+			size: 1.25d
+			tasks: [{
+				id: "0BADA25E84C92090"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7FF1455C20521100"]
+			id: "77406984E536F38F"
+			size: 1.25d
+			tasks: [{
+				id: "3F1FF9966FA247D9"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4A4775963D6CB635"]
+			icon: "create_connected:empty_fan_catalyst"
+			id: "154CD88109A6AE18"
+			title: "Bulk Processing"
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2A59603A6CD076F1"]
+			description: ["Now instead of 2 Andesite and 2 Iron/Zinc Nuggets, you now only need 1 Andesite and 1 Iron/Zinc Nugget for Andesite Alloy!"]
+			id: "4E8C028D0C70053A"
+			subtitle: "Cheaper Alloy!"
+			tasks: [{
+				id: "0934181E6B6AA49B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["77406984E536F38F"]
+			id: "6E149650CFAF58A5"
+			tasks: [{
+				id: "21E339A7A1CD4E0C"
+				item: "techifiedcore:kinetic_mechanism"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["77406984E536F38F"]
+			id: "3947E86B50F39887"
+			tasks: [{
+				id: "03C9E6ABE4E76049"
+				item: "techifiedcore:sealed_mechanism"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1B079A4C5D0D07CA"]
+			hide_dependency_lines: true
+			icon: "create:cuckoo_clock"
+			id: "27DD164B0F7E76E9"
+			rewards: [{
+				id: "51EE1EDC8CCA0D0D"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "1DB3C2B3BA7FA440"
+				type: "checkmark"
+			}]
+			title: "Let's Make Some Contraptions!"
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			id: "7DC804905E0750C3"
+			tasks: [{
+				id: "5F3DA22986C5B1E4"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			id: "1A91DC0890D84887"
+			tasks: [{
+				id: "7E9866DF4C1E1DEC"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			id: "5CA21EDA5D01ABA1"
+			tasks: [
+				{
+					id: "793A9405DE882000"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "0617C8179A8719E5"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			id: "73638BF2C691942E"
+			tasks: [{
+				id: "0634AA78796AAF4E"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			id: "73F3924046A8E176"
+			tasks: [{
+				id: "124789D364B9C599"
+				item: "create:mechanical_piston"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			id: "3F98C3B2762BE775"
+			tasks: [{
+				id: "59FCF667CD47C204"
+				item: "create:sticky_mechanical_piston"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			icon: "create:contraption_controls"
+			id: "11E1B1ED79B7B093"
+			size: 1.25d
+			subtitle: "The Functional Parts of your Contraptions"
+			tasks: [{
+				id: "53AB79C2422B165E"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			title: "Contraption Actors"
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1A91DC0890D84887"]
+			description: [
+				"{image:create_techified:textures/quests/tunnel_bore.png width:960 height:540 align:center fit:true}"
+				"Tunnel Bore design by ChosenArchitect :)"
+			]
+			icon: "create:minecart_contraption"
+			id: "356042018F480B06"
+			shape: "pentagon"
+			subtitle: "Come on now let your hands rest"
+			title: "Making Mining Better"
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["11E1B1ED79B7B093"]
+			id: "4DF8C558E262FC83"
+			tasks: [{
+				id: "144F005A629D8E4C"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["11E1B1ED79B7B093"]
+			id: "60C238105F658261"
+			tasks: [{
+				id: "1F048B7CBA9E0F21"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["11E1B1ED79B7B093"]
+			id: "61DB2FCC7C69EBFE"
+			tasks: [{
+				id: "5EAD52B4D10A5E74"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["11E1B1ED79B7B093"]
+			id: "768E8B48D4B4348E"
+			tasks: [{
+				id: "26D169371B44224F"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["11E1B1ED79B7B093"]
+			id: "478EAFEDF4A9FC1F"
+			tasks: [{
+				id: "2103225BEEFEB33E"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["11E1B1ED79B7B093"]
+			id: "4C126CF7FBB4FD42"
+			tasks: [{
+				id: "2B1514E1089B28A4"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["11E1B1ED79B7B093"]
+			id: "1988CBFD6BF9AF0D"
+			tasks: [
+				{
+					id: "6F475665724A4293"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "35C9BF0CB76553DC"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+				{
+					id: "19CF4928C841316D"
+					item: "createaddition:portable_energy_interface"
+					type: "item"
+				}
+			]
+			title: "Portable Interfaces"
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["11E1B1ED79B7B093"]
+			id: "4B0542D59D98F7B7"
+			tasks: [
+				{
+					id: "513D4C628D3A89A1"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "3C31232D6196F1AA"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+			]
+			title: "Funnels"
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			hide_until_deps_complete: true
+			id: "52A56D0C10A84128"
+			tasks: [{
+				id: "71FE3195470A8D47"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			title: "Elevators"
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["27DD164B0F7E76E9"]
+			description: [
+				"Trains are an efficient way to move items, fluids or just move throughout your world in general."
+				"You can learn more about trains in the Transportation chapter."
+			]
+			hide_until_deps_complete: true
+			id: "242A776632572044"
+			tasks: [{
+				id: "088DE4EE49892F8D"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Trains!"
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6E0F7CD6FFD69539"]
+			id: "397E258787528A81"
+			tasks: [
+				{
+					id: "258A9D247A5F24C3"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "35998404DCF0A928"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "0EED6722C5F840A9"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["627AB0ABC633DC7F"]
+			id: "676F069CB9F230BD"
+			tasks: [
+				{
+					id: "58C9641A0899A9C5"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "6656EBB86F655553"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "3A973A258159DFB8"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+				{
+					id: "0C914CC4E4459486"
+					item: "create:chute"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["676F069CB9F230BD"]
+			id: "6B1FDFBCB6B4B160"
+			tasks: [
+				{
+					id: "52321B2A44C67420"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "304145E3B83578C3"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "496E53C45284B2F6"
+					item: "create:smart_chute"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3580BF8FEC5FEAB3"]
+			id: "583941771C126030"
+			size: 1.25d
+			tasks: [{
+				id: "1B79F6423D39D7A3"
+				item: "techifiedcore:copper_machine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["583941771C126030"]
+			id: "5BA3420A32CBECC1"
+			tasks: [{
+				id: "4F64E98548D42595"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["583941771C126030"]
+			id: "10FE3C5535845FC0"
+			tasks: [{
+				id: "41CC3AF5B6C471AC"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["583941771C126030"]
+			id: "41182B759015EE76"
+			tasks: [{
+				id: "15CAD6E256E63157"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["583941771C126030"]
+			id: "3AB7FB31D1B9EB5A"
+			tasks: [{
+				id: "15D8BC0452E41454"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["583941771C126030"]
+			id: "78994C3E12991555"
+			tasks: [{
+				id: "2F7CF8B69187D290"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["583941771C126030"]
+			id: "698A23012FD1CC6E"
+			tasks: [{
+				id: "71B92060870D4696"
+				item: "create_factory_logistics:jar_packager"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["233F5E84C03F839F"]
+			id: "3580BF8FEC5FEAB3"
+			tasks: [{
+				id: "68AC712122F6CB6D"
+				item: "techifiedcore:makeshift_sealed_mechanism"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+	]
+	title: "Chapter 0.5: A New Beginning"
+}

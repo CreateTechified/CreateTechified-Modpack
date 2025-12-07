@@ -1,0 +1,13 @@
+name = "Create Style Hotbar"
+filename = "Create Style Hotbar.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "bd03cde093af3472bbe046b5d01128efa24ff80c883dab5667976d6602f772ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6538931
+project-id = 1267496

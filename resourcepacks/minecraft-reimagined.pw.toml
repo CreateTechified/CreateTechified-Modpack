@@ -1,0 +1,13 @@
+name = "Reimagined"
+filename = "§aReimagined§0_§8[v1.55.1]§0.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "0060ffe8368c81de06bb39ff457293d379728ccffacd87f32b65b268165325fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7247029
+project-id = 477204

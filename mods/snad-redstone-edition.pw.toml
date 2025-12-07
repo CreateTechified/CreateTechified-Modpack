@@ -1,0 +1,13 @@
+name = "Snad: Redstone Edition"
+filename = "Snad-1.20.1-(Neo)Forge-3.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "12e6caf6d05567bc93730443ba8bde533ece2ac7793e5b1569ccccd7c191a37f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5827323
+project-id = 912282

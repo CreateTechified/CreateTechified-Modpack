@@ -1,0 +1,13 @@
+name = "Applied Pneumatics"
+filename = "appliedpneumatics-1.0.4-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "08143559d3968b117438a62545409db4526343aa3dc655d2c4beb5214be0d6a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7124464
+project-id = 1355087

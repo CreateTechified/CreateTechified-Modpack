@@ -1,0 +1,13 @@
+name = "Create Immersive Aircrafts"
+filename = "Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "5cea67204fb10f4c1b41b1d43b4638074d746cdbff4a90c96e80d20386ea3cb8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5096356
+project-id = 821020

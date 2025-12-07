@@ -1,0 +1,13 @@
+name = "Fast Item Frames"
+filename = "FastItemFrames-v20.1.5-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "c9da6bf662a33cba03d4a71c145490ec10918df041222116ab7fa582aaa73752"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6963016
+project-id = 1210171

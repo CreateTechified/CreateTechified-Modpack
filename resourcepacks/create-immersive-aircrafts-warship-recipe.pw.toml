@@ -1,0 +1,13 @@
+name = "Create Immersive Aircraft : Warship Recipe"
+filename = "Create Immersive Aircrafts Warship Recipe DataPack v1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "ec511627ad6f83312fbf003202ceca281a6e7104b9ac7b06e5b2b2d01cd4391f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5375282
+project-id = 1025755

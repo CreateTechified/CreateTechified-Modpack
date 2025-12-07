@@ -1,0 +1,13 @@
+name = "Quested: Revived"
+filename = "quested-1.20.1-1.1-R.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "648e80d1f110bcce2ae6801c437facc70a19cf8aca6c20e3848c298fdeca399b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6906865
+project-id = 1330709

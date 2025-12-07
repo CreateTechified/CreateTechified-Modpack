@@ -1,0 +1,13 @@
+name = "Excalibur | Modded Enchantments Support"
+filename = "Modded Enchantments Support.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "9db575062c0df007aee8670747d56a5eeba7a96227926e6e3a6d8b8e3bee8299"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6265031
+project-id = 1213412

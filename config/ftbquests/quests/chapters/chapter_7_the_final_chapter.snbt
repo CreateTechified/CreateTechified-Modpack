@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_7_the_final_chapter"
+	group: "36F144C26FB8788B"
+	icon: {
+		Count: 1
+		id: "techifiedcore:the_quantum_realm"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "49BF4876115AC445"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["3FE686B2FFFB1B09"]
+		icon: "techifiedcore:quantum_mechanism"
+		id: "51793032822AC19A"
+		shape: "rsquare"
+		size: 2.0d
+		subtitle: "The Final Chapter"
+		tasks: [{
+			id: "2B633834122324DC"
+			type: "checkmark"
+		}]
+		title: "Chapter 7"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Chapter 7: The Final Chapter"
+}

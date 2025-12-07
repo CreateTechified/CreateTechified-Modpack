@@ -1,0 +1,13 @@
+name = "Thermal Series - Create Styled"
+filename = "Thermal_Create_1.20.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "12e5c39b48d4e8009e8ca600145a11dfbeb030b3d87133c3ccb508fb83791503"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5012316
+project-id = 559789

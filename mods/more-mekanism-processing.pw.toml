@@ -1,0 +1,16 @@
+name = "More Mekanism Processing"
+filename = "MoreMekanismProcessing-1.20.1-4.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "474dfd3255a71456a12b0ae6b5ac53f24113757eab2830497d8ffa0b1ca60a61"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7022274
+project-id = 511965
+
+[option]
+optional = true

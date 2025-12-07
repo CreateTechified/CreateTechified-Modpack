@@ -1,0 +1,13 @@
+name = "ExtraLib"
+filename = "ExtraLib-1.8.6-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "8fd383bdcefbf3745366f8c6befee6d1ddff2e62623d9f13fce7c6d42b4db7b7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7124735
+project-id = 1083780

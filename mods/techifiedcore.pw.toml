@@ -1,0 +1,13 @@
+name = "Create: Techified Core"
+filename = "techifiedcore-b7d2b54.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "d393c426927b896ae4fda0c32c62690d6a2ddb5c10460bd369d0e673f7896291"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7303818
+project-id = 1137902

@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5_binary_foundations"
+	group: "36F144C26FB8788B"
+	icon: "techifiedcore:binary_mechanism"
+	id: "5793211CD11294EF"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["369CF849A9422A19"]
+		icon: "techifiedcore:industrial_mechanism"
+		id: "120679DF3E771452"
+		shape: "rsquare"
+		size: 2.0d
+		subtitle: "Path towards The Binary Mechanism"
+		tasks: [{
+			id: "5FCCED85B1775562"
+			type: "checkmark"
+		}]
+		title: "Chapter 5"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Chapter 5: Binary Foundations"
+}

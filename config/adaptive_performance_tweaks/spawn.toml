@@ -22,6 +22,8 @@
 ["Global Spawn Limitations"]
 	#Enable/Disable general spawn limitations.
 	spawnLimitationEnabled = true
+	#Enable/Disable bypassing spawn limitations when using spawn eggs. When enabled, spawn eggs will bypass player-based spawn limitations.
+	spawnEggBypassLimitations = true
 	#Blocks every x spawn to avoid an over population with the limited spawn area. Use 0 to disable this optimization.
 	#Range: 0 ~ 100
 	spawnLimitationLimiter = 16

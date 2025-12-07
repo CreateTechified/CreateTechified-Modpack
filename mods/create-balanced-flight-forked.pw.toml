@@ -1,0 +1,13 @@
+name = "Create: Balanced Flight Forked"
+filename = "balancedflight-1.20.1_v2.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "9c4efe6c71b2f09c44889f5f85215eed1ac3fb53cf17b89339a572325ca3e708"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6968774
+project-id = 1342079

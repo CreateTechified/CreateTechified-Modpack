@@ -1,0 +1,13 @@
+name = "Thermal And Space"
+filename = "Thermal And Space-1.20.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "0d1fd1d377fa2e4c1c28213d48f0ff654f20a3577e0309d4159d8a7f1ff40864"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5420535
+project-id = 895787

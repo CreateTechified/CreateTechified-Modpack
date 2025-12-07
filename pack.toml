@@ -1,0 +1,12 @@
+name = "Create Techified"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "867aa8fdcb8fd6546e010191621786732d7affa2aea3d39267ac3b88d000ad8d"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"

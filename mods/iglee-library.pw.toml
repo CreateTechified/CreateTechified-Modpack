@@ -1,0 +1,13 @@
+name = "Iglee's Library"
+filename = "Iglee's Library-1.20.1-1.2.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "490b53466944c46a49fce89bf3d190ba9d4cbb2f634b3cdfddb0faeb6aa5f4b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6987117
+project-id = 541199

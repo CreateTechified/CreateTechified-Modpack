@@ -1,0 +1,16 @@
+name = "Kubejs Extended Crafting"
+filename = "kubejs_extended_crafting-2001.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "0f00719fb1bec521d0d0a67b8c0a45c93418e2416b514db33f969e9e6f9f7f5a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4999728
+project-id = 955720
+
+[option]
+optional = true

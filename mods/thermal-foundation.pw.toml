@@ -1,0 +1,13 @@
+name = "Thermal Foundation"
+filename = "thermal_foundation-1.20.1-11.0.6.70.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "8cb610abb3c835b47f9b4ec19be6a54104d1f61230b67a9d5bfd097c5ac45823"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5443583
+project-id = 222880

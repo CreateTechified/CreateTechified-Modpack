@@ -1,0 +1,49 @@
+#The dimension you can always travel to the Twilight Forest from, as well as the dimension you will return to. Defaults to the overworld. (domain:regname).
+originDimension = "minecraft:overworld"
+#Allow portals to the Twilight Forest to be made outside of the 'origin' dimension. May be considered an exploit.
+allowPortalsInOtherDimensions = false
+#Allow portals only for admins (Operators). This severely reduces the range in which the mod usually scans for valid portal conditions, and it scans near ops only.
+adminOnlyPortals = false
+#Disable Twilight Forest portal creation entirely. Provided for server operators looking to restrict action to the dimension.
+disablePortalCreation = false
+#Determines if new portals should be pre-checked for safety. If enabled, portals will fail to form rather than redirect to a safe alternate destination.
+#Note that enabling this also reduces the rate at which portal formation checks are performed.
+checkPortalDestination = false
+#Set this true if you want the lightning that zaps the portal to not set things on fire. For those who don't like fun.
+portalLightning = false
+#If false, the return portal will require the activation item.
+shouldReturnPortalBeUsable = true
+#Use a valid advancement resource location as a string. For example, using the string "minecraft:story/mine_diamond" will lock the portal behind the "Diamonds!" advancement. Invalid/Empty Advancement resource IDs will leave the portal entirely unlocked.
+portalUnlockedByAdvancement = ""
+#The max amount of water spaces the mod will check for when creating a portal. Very high numbers may cause issues.
+#Range: > 4
+maxPortalSize = 64
+#If true, Keepsake Caskets that are spawned when a player dies will not be accessible by other players. Use this if you dont want people taking from other people's death caskets. NOTE: server operators will still be able to open locked caskets.
+uuid_locking = false
+#If true, disables the ability to make Skull Candles by right clicking a vanilla skull with a candle. Turn this on if you're having mod conflict issues for some reason.
+skull_candles = false
+#If false, items that come enchanted when you craft them (such as ironwood or steeleaf gear) will not show this way in the creative inventory.
+#Please note that this doesnt affect the crafting recipes themselves, you will need a datapack to change those.
+default_item_enchantments = true
+#If true, Twilight Forest's bosses will put their drops inside of a chest where they originally spawned instead of dropping the loot directly.
+#Note that the Knight Phantoms are not affected by this as their drops work differently.
+boss_drop_chests = true
+#Dictates how many blocks down from a cloud block should the game logic check for handling weather related code.
+#Lower if experiencing low tick rate. Set to 0 to turn all cloud precipitation logic off.
+#Range: > 0
+cloudBlockPrecipitationDistance = 32
+
+#Settings for all things related to the uncrafting table.
+["Uncrafting Table"]
+	disableUncraftingRecipes = ["twilightforest:giant_log_to_oak_planks"]
+	flipRecipeList = false
+	blacklistedUncraftingModIds = []
+	flipIdList = false
+
+#Settings that are not reversible without consequences.
+["Dimension Settings"]
+	#If true, players spawning for the first time will spawn in the Twilight Forest.
+	newPlayersSpawnInTF = false
+	#If true, the return portal will spawn for new players that were sent to the TF if `spawn_in_tf` is true.
+	portalForNewPlayer = false
+

@@ -1,0 +1,13 @@
+name = "KubeJS Mekanism UNOFFICIAL"
+filename = "kubejs-mekanism-forge-2001.1.5.1-build.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "05977291c847103e410180e0630befb6aaff391be5e13820c0702e2589dadf2d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5532573
+project-id = 1062867

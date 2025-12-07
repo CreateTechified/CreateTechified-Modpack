@@ -1,0 +1,13 @@
+name = "Searchables"
+filename = "Searchables-forge-1.20.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5284015
+project-id = 858542

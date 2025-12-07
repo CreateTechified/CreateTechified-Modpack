@@ -2,11 +2,349 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "useful_items"
-	group: "0E07056EFBE12555"
+	group: "656E41FF236CAAAE"
 	icon: "minecraft:totem_of_undying"
-	id: "4E6B876BF16C3051"
+	id: "6EE4CFD70842FDEA"
+	images: [
+		{
+			height: 2.0d
+			image: "create_techified:textures/quests/useful_items.png"
+			rotation: 0.0d
+			width: 14.18d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 10.0d
+			image: "relics:textures/gui/description/ability/stats_background.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["567D36A755794A73"]
+			description: ["Here, you can find all of the items that can help enhance your playthrough by a lot!"]
+			icon: "minecraft:totem_of_undying"
+			id: "25C68628AD1B6439"
+			size: 3.0d
+			tasks: [{
+				id: "4C1414C4E32D357E"
+				type: "checkmark"
+			}]
+			title: "Useful Items"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: [
+				"As the name suggests, these gadgets make building easier and time saving. Especially for giant bases!"
+				"This mod also has templates, which is basically just schematics. You can make templates out of your copied structure or even encode a template from other sources. No files, just some lines."
+			]
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_building"
+				tag: {
+					energy: 500000
+					uuid: [I;
+						1211380959
+						65621372
+						-1304307431
+						1347969646
+					]
+				}
+			}
+			id: "597ABBEEA61D0FA1"
+			size: 1.0d
+			tasks: [{
+				id: "5F3E964C2ABA3BCC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))"
+					}
+				}
+				title: "Any Building Gadget"
+				type: "item"
+			}]
+			title: "Building Gadgets"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["The Personal Shrinking Device, as the name suggests allows you to shrink yourself, this can be very useful if you are working with pipes or cables underground."]
+			icon: {
+				Count: 1
+				id: "shrink:shrinking_device"
+				tag: {
+					Energy: 100000
+				}
+			}
+			id: "747FCC6FB8C785F0"
+			size: 1.0d
+			tasks: [{
+				id: "382C1A090096B975"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["This block defies the laws of physics by having basiacally an infinite amount of water! It's especially useful if you want to supply your fission reactor with water."]
+			id: "79C03BB2F60CD2EF"
+			size: 1.0d
+			tasks: [{
+				id: "3E67D12328722E22"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["Need a specific flower but can't find it? Fear not! The Market offers every single flower, seed and sapling just for some emeralds."]
+			id: "315902271465B134"
+			size: 1.0d
+			tasks: [{
+				id: "6F222AFA3E2518BA"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["Construction wands are a wonderful tool for building. They allow you to place the same block in bulk! But also place blocks randomly from your hotbar."]
+			icon: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "46FA28C70DDFE19F"
+			size: 1.0d
+			tasks: [{
+				id: "20AF98B4F1EC3C21"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(constructionwand:stone_wand)item(constructionwand:iron_wand)item(constructionwand:diamond_wand)item(constructionwand:infinity_wand))"
+					}
+				}
+				title: "Any Construction Wand"
+				type: "item"
+			}]
+			title: "Construction Wands"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["Simple Magnets attract nearby items to you. They can go in a curio slot and can be enabled/disabled with just a keybind!"]
+			icon: {
+				Count: 1
+				id: "simplemagnets:basicmagnet"
+				tag: { }
+			}
+			id: "74192992CF706737"
+			size: 1.0d
+			tasks: [
+				{
+					id: "25EE69CFE48D9C22"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(simplemagnets:basicmagnet)item(simplemagnets:advancedmagnet))"
+						}
+					}
+					title: "Any Magnet"
+					type: "item"
+				}
+				{
+					id: "78A51CD544370ADF"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(simplemagnets:basic_demagnetization_coil)item(simplemagnets:advanced_demagnetization_coil))"
+						}
+					}
+					title: "Any Demagnetization Coil"
+					type: "item"
+				}
+			]
+			title: "Simple Magnets"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: [
+				"Sleeping bags are just like portable beds, allowing you to skip night without resetting your respawn point!"
+				"But what if you want it to be night? With the Hammocks, you can also skip day entirely."
+			]
+			icon: "comforts:sleeping_bag_white"
+			id: "740AF40DBB53BE1D"
+			size: 1.0d
+			tasks: [
+				{
+					id: "09F7161C2CF36B92"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)"
+						}
+					}
+					title: "Any #comforts:sleeping_bags"
+					type: "item"
+				}
+				{
+					id: "3142C406EBCCEA4A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:hammocks)"
+						}
+					}
+					title: "Any #comforts:hammocks"
+					type: "item"
+				}
+				{
+					id: "050A72654539F6D8"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+			]
+			title: "Sleeping Bags and Hammocks"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["Jetpacks allow you to basically fly, but with the cost of a lot of power. These are great for early game but for mid game or end game, maybe we should consider another option as well."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:iron"
+					Throttle: 1.0d
+				}
+			}
+			id: "200DC3A945A832B7"
+			size: 1.0d
+			tasks: [{
+				id: "37BEC94CDF8B33DC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack))"
+					}
+				}
+				title: "Any Jetpack"
+				type: "item"
+			}]
+			title: "Iron Jetpacks"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["Crafting On A Stick adds portable variants of many functional blocks, like crafting table, anvil smithing table, etc. They can even go in your curios!"]
+			icon: "crafting_on_a_stick:crafting_table"
+			id: "12A773DC0A3CD8D3"
+			size: 1.0d
+			tasks: [{
+				id: "4E4253CCE8ECDBD8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:crafting_on_a_stick)"
+					}
+				}
+				title: "Any #curios:crafting_on_a_stick"
+				type: "item"
+			}]
+			title: "Crafting On A Stick"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["The Flight Anchor grants you creative flight in a limited range, with just some rotation!"]
+			icon: "balancedflight:flight_anchor"
+			id: "7D48C32B904FD1D9"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1C7B7DA45557EFBF"
+					item: "balancedflight:ascended_flight_ring"
+					type: "item"
+				}
+				{
+					id: "7F6576F1E3FEFD69"
+					item: "balancedflight:flight_anchor"
+					type: "item"
+				}
+			]
+			title: "Creative Flight"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["The Extendo Grip goes in your off-hand and extends your block reach. This can be very useful for building"]
+			id: "72A0A9C8886F412B"
+			size: 1.0d
+			tasks: [{
+				id: "78E0B0246479A3C2"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25C68628AD1B6439"]
+			description: ["The Wand Of Symmetry mirrors your block placements. You can shift r-click to change its config"]
+			id: "66D302CD03D25429"
+			size: 1.0d
+			tasks: [{
+				id: "5A5542E833EF5155"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
 	title: "Useful Items"
 }

@@ -1,0 +1,13 @@
+name = "Fresh Animations"
+filename = "FreshAnimations_v1.10.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "72599c99251b2dd8543795c0d566da5c0e39f79fd5d002e6cba0e7581e77acfa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7248008
+project-id = 453763

@@ -1,0 +1,13 @@
+name = "Create: Unlock Schematics"
+filename = "unlockschematics-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "2e7c0e8f6e35ea3361f5e0e1e667c9f4fe1dcdfd67865b876148bc53d81c4663"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4629079
+project-id = 701556

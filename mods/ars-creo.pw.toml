@@ -1,0 +1,13 @@
+name = "Ars Creo"
+filename = "ars_creo-1.20.1-4.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "31964f41303ee2265ac4dbed66c6af20c11bd01637016d13e8de091e87fb78f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6265696
+project-id = 575698

@@ -3,7 +3,6 @@
 ["Born in Chaos Spawn Config"]
 	Enabled = true
 	Id = "born_in_chaos_v1"
-	#e.g. mobs which will always attack yon ...
 	#Range: 1 ~ 64
 	HostileMobsPerPlayer = 16
 	#Range: 1 ~ 512

@@ -1,0 +1,13 @@
+name = "Emojiful"
+filename = "Emojiful-Forge-1.20.1-4.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "5c9a41d6a1744bf65695dbe3473c0f5e60f8616b146afd6353f802b25454efe7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4672310
+project-id = 284324

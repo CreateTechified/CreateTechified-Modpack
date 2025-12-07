@@ -1,0 +1,13 @@
+name = "Lithosphere"
+filename = "lithosphere 1.6 17.06.2025 (1.20 - 1.20.4).jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "cc3941873f1037b356e2dca436332f39b03e22670ba17d4abf98e4abae5a5185"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6670776
+project-id = 995122

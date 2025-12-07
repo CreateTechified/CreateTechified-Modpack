@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3_playing_with_radioactive_toys"
+	group: "36F144C26FB8788B"
+	icon: "techifiedcore:t1_radiant_mechanism"
+	id: "31F181E66CA11CD6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["5EA35E90A0134C36"]
+		icon: "create:precision_mechanism"
+		id: "15B9B9C516D9D3F3"
+		shape: "rsquare"
+		size: 2.0d
+		subtitle: "Path towards The Radiant Mechanism"
+		tasks: [{
+			id: "4FDDBD8D3B96BD9F"
+			type: "checkmark"
+		}]
+		title: "Chapter 3"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Chapter 3: Playing With Radioactive Toys"
+}

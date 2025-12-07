@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creates_addons"
+	group: "3E3560FC912EE8E9"
+	icon: "createaddition:rolling_mill"
+	id: "6FA5F089031FD217"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create's Addons"
+}

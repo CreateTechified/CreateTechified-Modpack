@@ -1,0 +1,13 @@
+name = "Spice of Life Onion"
+filename = "SoLOnion_FORGE_v1.4.5_mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "adbaba6124ece47ef98bf60eeba0c87c89cdbb5cfd75ebf14f24967fcc622b98"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5816336
+project-id = 878047

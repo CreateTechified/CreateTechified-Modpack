@@ -2,27 +2,118 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "power_gen"
-	group: "0E07056EFBE12555"
+	group: "656E41FF236CAAAE"
 	icon: "createaddition:alternator"
-	id: "0EE5EABC7C1EF0C3"
-	order_index: 1
+	id: "77DE6E72488A72E2"
+	images: [
+		{
+			height: 2.0d
+			image: "create_techified:textures/quests/power_gen.png"
+			rotation: 0.0d
+			width: 11.28d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 5.0d
+			image: "thermal:block/cells/energy_cell_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.25d
+			y: -0.75d
+		}
+		{
+			height: 5.0d
+			image: "thermal:block/cells/energy_cell_level_8"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.25d
+			y: -0.75d
+		}
+		{
+			height: 1.25d
+			image: "create_techified:textures/quests/thermal_power.png"
+			rotation: 0.0d
+			width: 6.5875d
+			x: 11.25d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "create_techified:textures/quests/mekanism_power.png"
+			rotation: 0.0d
+			width: 7.625d
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			height: 5.0d
+			image: "mekanism:block/personal_barrel/top_open"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.5d
+			y: -0.75d
+		}
+		{
+			height: 1.25d
+			image: "create_techified:textures/quests/powah_power.png"
+			rotation: 0.0d
+			width: 4.8875d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			height: 5.0d
+			image: "powah:textures/model/tile/beam.png"
+			rotation: 90.0d
+			width: 2.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "powah:item/battery_starter"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "powah:item/battery_starter"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "ars_nouveau:block/spell_sensor_fast"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/alchemy_catalyst_overlay"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 3.5d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["118517EDA69074BA"]
-			description: [
-				"This chapter will guide you through the many ways of power (forge energy) generation that is available in this modpack!"
-				"Some are AWESOME!"
-				"Some are TERRIBBLE!"
-				"But its just your choice"
-			]
+			dependencies: ["567D36A755794A73"]
+			description: ["Here, we will discuss the best ways to generate and move power around your base!"]
 			icon: "powah:energizing_rod_nitro"
-			id: "65313AE7E14FC390"
-			shape: "rsquare"
-			size: 2.0d
+			id: "33E88E8EAA544374"
+			size: 3.0d
 			tasks: [{
-				id: "35CDD743EC76BA13"
-				title: "Continue"
+				id: "3906B305C824C81C"
 				type: "checkmark"
 			}]
 			title: "Power"
@@ -30,633 +121,891 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["65313AE7E14FC390"]
-			description: [
-				"Create on its own doesn't have anything that generates forge energy,"
-				"But there are addons that helps us convert rotational force into forge energy"
-			]
-			icon: "create:cogwheel"
-			id: "48544A465A61CEEB"
-			size: 1.25d
+			dependencies: ["33E88E8EAA544374"]
+			icon: "create:steam_engine"
+			id: "61D35D6EDB64B2E2"
+			size: 1.5d
+			subtitle: "Create's Power"
 			tasks: [{
-				id: "7C726ECCA3CEEA8E"
-				title: "Continue"
+				id: "0D8E79253575D532"
 				type: "checkmark"
 			}]
-			title: "Create"
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["65313AE7E14FC390"]
-			description: [
-				"Thermal is a mod that's full of machines using forge energy,"
-				"With the help of different dynamos, we can generate lots of power"
-			]
-			icon: "thermal:machine_frame"
-			id: "578D61C50224C2F8"
-			size: 1.25d
-			tasks: [{
-				id: "37C037DE4B2698E0"
-				title: "Continue"
-				type: "checkmark"
-			}]
-			title: "Thermal Expansion"
-			x: -3.5d
+			title: "Stress"
+			x: -2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["65313AE7E14FC390"]
-			description: [
-				"Powah is focused around generating power,"
-				"It has some of the best ways for generating power"
-			]
-			icon: "powah:energizing_orb"
-			id: "129F7F97D4982F0E"
-			size: 1.25d
+			dependencies: ["33E88E8EAA544374"]
+			icon: "powah:energy_cell_nitro"
+			id: "21C066EA9905BC0A"
+			size: 1.5d
+			subtitle: "Or RF, whatever you wanna call it. It's just electricity lol"
 			tasks: [{
-				id: "367BFF28C3EC99F0"
-				title: "Continue"
+				id: "6C6B6CD578ED965B"
+				type: "checkmark"
+			}]
+			title: "Forge Energy"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33E88E8EAA544374"]
+			icon: "ars_nouveau:creative_source_jar"
+			id: "0ED810859C0D9ABC"
+			size: 1.5d
+			subtitle: "Ars's Power"
+			tasks: [{
+				id: "3A825AC4435F6B95"
+				type: "checkmark"
+			}]
+			title: "Source"
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["33E88E8EAA544374"]
+			icon: "botania:mana_pool"
+			id: "137050D427528FD7"
+			size: 1.5d
+			subtitle: "Botania's Power"
+			tasks: [{
+				id: "6E19E5F0AD99769A"
+				type: "checkmark"
+			}]
+			title: "Mana"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["21C066EA9905BC0A"]
+			description: ["Let's check out the ways to generate energy."]
+			icon: "powah:thermo_generator_nitro"
+			id: "3B4E2C7A72F5083D"
+			tasks: [{
+				id: "4E9466E38107CBAF"
+				type: "checkmark"
+			}]
+			title: "Generating Energy"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["21C066EA9905BC0A"]
+			description: ["A lot of mods add ways of moving energy, but the best by far is mekanism in terms of cables. While for wireless power, we have some more better options."]
+			icon: "ad_astra:steel_cable"
+			id: "4079F41146C27994"
+			tasks: [{
+				id: "22D1859DD6A67D16"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable)item(powah:energy_cable_starter)item(powah:energy_cable_basic)item(powah:energy_cable_hardened)item(powah:energy_cable_blazing)item(powah:energy_cable_niotic)item(powah:energy_cable_spirited)item(powah:energy_cable_nitro)item(ad_astra:steel_cable)item(ad_astra:desh_cable)item(mekanism_extras:absolute_universal_cable)item(mekanism_extras:supreme_universal_cable)item(mekanism_extras:cosmic_universal_cable)item(mekanism_extras:infinite_universal_cable)item(pipez:energy_pipe)item(pipez:universal_pipe)item(create_new_age:electrical_connector)item(createaddition:connector)item(createaddition:small_light_connector)item(createaddition:large_connector))"
+					}
+				}
+				title: "Any Energy Cable"
+				type: "item"
+			}]
+			title: "Moving Energy"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4079F41146C27994"]
+			description: [
+				"Flux Network's wireless system on the other hand is advanced, but also easy. All you need is a Flux Controller, a Flux Plug which will input power into your network, and then a Flux Point which can output that power, there isn't really a power buffer here. You also get wireless player charging from your Flux Controller."
+				""
+				"Now you should actually use both Powah and Flux Network for wireless power, ender gates for usual machines and then flux points for major machines like an SPS where you would usually need a priority system."
+			]
+			icon: "fluxnetworks:flux_core"
+			id: "62BCFECF268C1B24"
+			tasks: [
+				{
+					id: "1F5D80F3A1FC2EB3"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "3BF777852B7525F7"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "12C12971D234A0E9"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+			]
+			title: "Wireless Power: Flux Networks"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4079F41146C27994"]
+			description: [
+				"Powah's wireless system is fairly simple, you put supply an ender cell with power (shift r-click an energy cell or battery in it's inventory to add a buffer) and then slap on an ender gate wherever you want power."
+				""
+				"For wireless player charging, you can use a Player Transmitter, all you need is a binding card. By the way, you can also r-click your binding card on an enderman to make it cross-dimensional!"
+			]
+			id: "556BD9889443FEA4"
+			tasks: [
+				{
+					id: "17F0CB8EDB0CD346"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(powah:ender_cell_starter)item(powah:ender_cell_basic)item(powah:ender_cell_hardened)item(powah:ender_cell_blazing)item(powah:ender_cell_niotic)item(powah:ender_cell_spirited)item(powah:ender_cell_nitro))"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "612CF552A028F8C1"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(powah:ender_gate_starter)item(powah:ender_gate_basic)item(powah:ender_gate_hardened)item(powah:ender_gate_blazing)item(powah:ender_gate_niotic)item(powah:ender_gate_spirited)item(powah:ender_gate_nitro))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wireless Power: Powah"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B4E2C7A72F5083D"]
+			description: ["Thermal Series has different types of Dynamos that burn different things for energy! Let's take a look at those."]
+			hide_dependent_lines: true
+			icon: "thermal:machine_frame"
+			id: "3AB001146CF0DC32"
+			tasks: [{
+				id: "1214F7D85A04936F"
+				type: "checkmark"
+			}]
+			title: "Thermal Series"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B4E2C7A72F5083D"]
+			description: ["Powah is centered around generating energy. It has many ways to generate energy. Let's take a look at those."]
+			hide_dependent_lines: true
+			icon: "powah:crystal_nitro"
+			id: "2075DA1441582475"
+			tasks: [{
+				id: "041AA55133A77F09"
 				type: "checkmark"
 			}]
 			title: "Powah"
-			x: 3.5d
-			y: 0.0d
+			x: 6.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["48544A465A61CEEB"]
-			description: [
-				"This addon mainly focuses on growing your factory with oil and steel!"
-				"But this mod also has a way to generate fe"
-			]
-			icon: "createindustry:steel_flywheel"
-			id: "1E137F864D949AAF"
-			tasks: [
-				{
-					id: "14B7CDDB299418CA"
-					item: "createindustry:rotor"
-					type: "item"
-				}
-				{
-					id: "2AC5A41CD08A619C"
-					item: "createindustry:stator"
-					type: "item"
-				}
-			]
-			title: "Create: The Factory Must Grow"
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["48544A465A61CEEB"]
-			description: ["This addon focuses in converting rotational force into fe and visa versa"]
-			icon: "createaddition:alternator"
-			id: "6F89B37B44A8D89F"
-			tasks: [
-				{
-					id: "5693338BECBD9C19"
-					item: "createaddition:alternator"
-					type: "item"
-				}
-				{
-					id: "5B06EEF49E9980E9"
-					item: "createaddition:electric_motor"
-					type: "item"
-				}
-			]
-			title: "Create: Crafts and Additions"
-			x: -2.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["48544A465A61CEEB"]
-			description: [
-				"This focuses on converting rotaional force into fe and visa versa"
-				"Its a little better than create: crafts and additions"
-			]
-			icon: "create_new_age:generator_coil"
-			id: "5FF4A8086EBB033C"
-			tasks: [
-				{
-					id: "54B77F9D0B98ED44"
-					item: "create_new_age:generator_coil"
-					type: "item"
-				}
-				{
-					id: "1EB34050F058ED01"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "create_new_age:magnet"
-						}
-					}
-					title: "Any #create_new_age:magnet"
-					type: "item"
-				}
-				{
-					id: "2F1D0D580EBE2CA7"
-					item: "create_new_age:basic_motor"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "346F57309A4F8430"
-					item: "create_new_age:advanced_motor"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "335AEE937BCB3C43"
-					item: "create_new_age:reinforced_motor"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "17A10938D16E8C55"
-					item: "create_new_age:basic_motor_extension"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "34C0E0082C4B26C8"
-					item: "create_new_age:advanced_motor_extension"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Create: New Age"
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["578D61C50224C2F8"]
-			description: ["Burns fuel to generate fe"]
-			id: "7497DC0D91CCE623"
+			dependencies: ["3B4E2C7A72F5083D"]
+			description: ["With the help of Create's Addons, we can convert SU into FE. Let's take a look at those addons."]
+			icon: "create:cogwheel"
+			id: "5CC975FBC46AA181"
 			tasks: [{
-				id: "4E146F30164E6533"
-				item: "thermal:dynamo_stirling"
+				id: "4D60A21241B6DDFF"
+				type: "checkmark"
+			}]
+			title: "Create"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B4E2C7A72F5083D"]
+			description: ["Mekanism is tech mod, and it offers many ways of generating energy. Let's take a look at those."]
+			hide_dependent_lines: true
+			icon: "mekanism:basic_control_circuit"
+			id: "76EF3B27C97449A9"
+			tasks: [{
+				id: "5D70DFAA45A24F66"
+				type: "checkmark"
+			}]
+			title: "Mekanism"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5308D5B22B942D83"]
+			description: [
+				"Water Wheels draw force from adjacent water. Normal Water Wheels generate 256su with 8 rpm, while Large Water Wheels generate 512su with 4 rpm."
+				""
+				"You can interact with the water wheels with any plank to change their appearence!"
+			]
+			id: "69D3C1DA3959896F"
+			tasks: [{
+				id: "2E852E35A2929F8D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(create:water_wheel)item(create:large_water_wheel))"
+					}
+				}
+				title: "Any Water Wheel"
 				type: "item"
 			}]
+			title: "Water Wheels"
 			x: -6.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["578D61C50224C2F8"]
-			description: ["Burns oil to generate fe"]
-			id: "6674172691039D95"
+			dependencies: ["5308D5B22B942D83"]
+			description: [
+				"Windmills attach to the block in their front. They require atleast 8 sail-like blocks, you will have to use super glue for non sail-like blocks."
+				""
+				"The rotation speed and su generation depends on the number of sail blocks the contraption has. Sail blocks include Windmill Sail, Windmill Sail Frame and Wool."
+			]
+			icon: "create:windmill_bearing"
+			id: "18F3297D2944E647"
+			tasks: [
+				{
+					id: "2943790658B162B7"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "2A0D4DE1EF5DB44A"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Windmills"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5308D5B22B942D83"]
+			description: [
+				"Steam Engines are by far the best way of generating Stress Units."
+				"Place a Steam Engine on a fluid tank, supply it with water and heat and you're ready to go!"
+				"The minimal setup requires 4 fluid tanks."
+				"The level of a steam engine depends on its size, water supply, and heat."
+				"It is important to note that a steam engine can output a maximum of 16384su. For higher levels, you'll need more than one steam engine on the fluid tank for full capacity"
+			]
+			id: "659388D366D04D0E"
 			tasks: [{
-				id: "57D63279C48D35E2"
+				id: "1C2C4A348FB2F197"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Steam Engines"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5308D5B22B942D83"]
+			description: ["The Electric Motor converts FE into SU with the desired rpm. The energy consumption increases as you increase the rpm."]
+			id: "2ED09BE879ED56D6"
+			subtitle: "FE -> SU"
+			tasks: [{
+				id: "5308D3F43993E6D7"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			title: "Crafts \\& additions"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5308D5B22B942D83"]
+			description: [
+				"Motors converts FE into SU with the desired rpm. The energy consumption increases as you increase the rpm."
+				""
+				"Motor Extensions can multiply the stress capacity of your motor. The energy consumption increases as you increase the stress."
+			]
+			id: "66DEF9F10B94565F"
+			subtitle: "FE -> SU"
+			tasks: [
+				{
+					id: "65DC0AFED6B6A8AC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(create_new_age:basic_motor)item(create_new_age:advanced_motor)item(create_new_age:reinforced_motor))"
+						}
+					}
+					title: "Any Motor"
+					type: "item"
+				}
+				{
+					id: "56EB44968D702FA5"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(create_new_age:basic_motor_extension)item(create_new_age:advanced_motor_extension))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "New Age"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5308D5B22B942D83"]
+			description: [
+				"Source Motor converts Source into SU with the desired rpm. The source consumption increases as you increase the rpm."
+				""
+				"You'll need to have a Source Jar nearby for the motor to work."
+			]
+			id: "517383D6F986B0AB"
+			subtitle: "Source -> SU"
+			tasks: [{
+				id: "764DC32CBEC4F40E"
+				item: "ars_technica:source_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61D35D6EDB64B2E2"]
+			description: [
+				"Moving Stress Units is pretty easy. The Shafts can relay rotation in a straight line, you can also encase shafts with any casing and it doesn't even consume the casing or anything!"
+				""
+				"Now if you want to turn, that's where the Gearbox comes. It can relay the rotation in 4 directions. The rotaion is mirrored in the corners and reversed in a straight direction. They can also be rotated with a wrench."
+				""
+				"Chain Drives work just like a mechanical belt, relaying the rotation to each other in a row."
+			]
+			icon: "create:shaft"
+			id: "08AEF3B6A697E356"
+			tasks: [
+				{
+					id: "56AE306FB894459B"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "0C5812552B80B7C5"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "5DAC3B0B0ED78213"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			title: "Moving Stress Units"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61D35D6EDB64B2E2"]
+			description: ["Let's check out the ways to generate stress units."]
+			icon: "create:propeller"
+			id: "5308D5B22B942D83"
+			tasks: [{
+				id: "4A3346CC8B491B23"
+				type: "checkmark"
+			}]
+			title: "Generating Stress Units"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0ED810859C0D9ABC"]
+			description: [
+				"The Source Relays will be your best friends for moving source, they can move source from one location and send it to another. You'll need a Dominion Wand to set the take and send locations."
+				""
+				"There are mainly 3 types of source relays:"
+				"Source Relay -> One to One"
+				"Source Relay (Splitter) -> One to Many"
+				"Source Relay (Collector) -> Many to One"
+			]
+			id: "56DDF69936216FC5"
+			tasks: [{
+				id: "6763C81C639B8C6F"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			title: "Moving Source"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["137050D427528FD7"]
+			description: ["The Mana Spreader takes mana from Mana Generating Flowers and focuses it to the mana pool, while the Mana Splitter can split mana into 4 mana pools"]
+			id: "1C3A7835ED419C88"
+			tasks: [
+				{
+					id: "3CF7EA366B49BAF5"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "54B862DD29B812F7"
+					item: "botania:mana_distributor"
+					type: "item"
+				}
+			]
+			title: "Moving Mana"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76EF3B27C97449A9"]
+			description: ["The Heat Generator can be your first generator. It can generate a maximum  of 107.4 FE/t, assuming you covered it and logged it with lava and the nalso supplied it with lava."]
+			id: "0FB9E7F1B0E3752E"
+			tasks: [{
+				id: "627418BF1B8B77E8"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["76EF3B27C97449A9"]
+			description: ["Solar Generators harness the energy of the sun to generate energy. A basic one can generate 13.4 FE/t, while an advanced one can generate 79.4 FE/t."]
+			id: "01BECE6DF9BB0400"
+			tasks: [
+				{
+					id: "3D8A70B63407624E"
+					item: "mekanismgenerators:solar_generator"
+					type: "item"
+				}
+				{
+					id: "626F9D99EFB23EAC"
+					item: "mekanismgenerators:advanced_solar_generator"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["76EF3B27C97449A9"]
+			description: ["Wind Generator uses wind to generate energy. The FE generation depends on how high the generator is."]
+			id: "4A88D4F33D623E91"
+			tasks: [{
+				id: "1A5D35181BF0A6FF"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["76EF3B27C97449A9"]
+			description: ["The Bio-Generator burns Bio Fuel for 280 FE/t."]
+			id: "72219ACBD9195930"
+			tasks: [{
+				id: "7FF6E6461A47849F"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["76EF3B27C97449A9"]
+			description: [
+				"The Gas-Burning Generator burns gas for energy."
+				"Hydrogen -> 20.48 kFE/t"
+				"Ethylene -> 72.19 kFE/t"
+			]
+			id: "3E40535C17626051"
+			tasks: [{
+				id: "4F43C88E01F83430"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["76EF3B27C97449A9"]
+			description: ["The Steam Turbine multiblock uses steam to generate a lot of energy. Learn more about this multiblock in the Mekanism Chapter."]
+			icon: "mekanismgenerators:turbine_blade"
+			id: "0F4892B5D011BBC7"
+			title: "Steam Turbine"
+			x: -9.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["76EF3B27C97449A9"]
+			description: ["The Fusion Reactor is one of the best methods to generate energy. It can generate around 50 MFE/t. Learn more about this multiblock in the Mekanism Chapter."]
+			id: "11559E3B88C0C36F"
+			subtitle: "The BEST Power Source in the entire pack!"
+			tasks: [{
+				id: "492EE9F16E5FB32E"
+				item: "mekanismgenerators:fusion_reactor_controller"
+				type: "item"
+			}]
+			title: "Fusion Reactor"
+			x: -10.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3AB001146CF0DC32"]
+			description: ["Burns Fuel for Energy"]
+			id: "4F6F06C6CC10681E"
+			tasks: [{
+				id: "77296D22DAA77988"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AB001146CF0DC32"]
+			description: ["Burns Oil for Energy"]
+			id: "120071408D583526"
+			tasks: [{
+				id: "6DAD072E1F96467F"
 				item: "thermal:dynamo_compression"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.0d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["578D61C50224C2F8"]
-			description: ["Burns lava or blazing blood to generate fe"]
-			id: "02690FA734068F5C"
+			dependencies: ["3AB001146CF0DC32"]
+			description: ["Burning Lava or Blazing Blood for Energy"]
+			id: "329472A2833CDBA0"
 			tasks: [{
-				id: "29B3B31EBC5AAA01"
+				id: "40588019A490F6F8"
 				item: "thermal:dynamo_magmatic"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["578D61C50224C2F8"]
-			description: ["Burns coins to generate fe"]
-			id: "717870FBF31D6E82"
+			dependencies: ["3AB001146CF0DC32"]
+			description: ["Burns Coins for Energy"]
+			id: "06563C5376EBDB13"
+			subtitle: "The literal defination of \"burning money\""
 			tasks: [{
-				id: "3B99577DEEDAAFBA"
+				id: "33841C140912AE07"
 				item: "thermal:dynamo_numismatic"
 				type: "item"
 			}]
-			x: -6.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["578D61C50224C2F8"]
-			description: ["Burns gems to generate fe"]
-			id: "4612191DEE35C1F7"
+			dependencies: ["3AB001146CF0DC32"]
+			description: ["Burns Gems for Energy"]
+			id: "49B1EF110F8652EC"
 			tasks: [{
-				id: "5DA194B4A2D64022"
+				id: "0C4DE02A8F8D13D5"
 				item: "thermal:dynamo_lapidary"
 				type: "item"
 			}]
-			x: -6.0d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["578D61C50224C2F8"]
-			description: ["Burns enchanted items to generate fe"]
-			id: "0A5F302ACA1C7A30"
+			dependencies: ["3AB001146CF0DC32"]
+			description: ["Burns Enchanted stuff for Energy"]
+			id: "0A2AC716BB6DB312"
 			tasks: [{
-				id: "7C4AF6C60F5AB1B0"
+				id: "0E5BE274563DCC36"
 				item: "thermal:dynamo_disenchantment"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["578D61C50224C2F8"]
-			description: ["Burns food to generate fe"]
-			id: "79A46B64EB987E41"
+			dependencies: ["3AB001146CF0DC32"]
+			description: ["Burns Food for Energy"]
+			id: "34ED61A25A8E2677"
 			tasks: [{
-				id: "26DE49AF4B80C712"
+				id: "572AD4B4E4735304"
 				item: "thermal:dynamo_gourmand"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "2BA41CDF56EFD65D"
-			tasks: [{
-				id: "14EAE0BEB75AD526"
-				item: "powah:furnator_starter"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "46ACB16CC08496B5"
-			tasks: [{
-				id: "0F35CC45F9A36CEB"
-				item: "powah:magmator_starter"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "1BF074C3F640F4B6"
-			tasks: [{
-				id: "7E3D1CA437C21139"
-				item: "powah:thermo_generator_starter"
-				type: "item"
-			}]
-			x: 6.0d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "50DC22BC6FE9A1CD"
+			dependencies: ["3AB001146CF0DC32"]
+			description: ["Burns Steam for Energy"]
+			id: "1F5BB10C09654371"
 			tasks: [{
-				id: "5DC1226261AA1290"
-				item: "powah:solar_panel_starter"
+				id: "0545879E2BEA0A1E"
+				item: "systeams:steam_dynamo"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "5BF96DA38A4295FE"
+			dependencies: ["2075DA1441582475"]
+			description: ["The Furnator burns solid fuel for energy."]
+			id: "52D044B6EE28D6C4"
 			tasks: [{
-				id: "73D8BD3FAFBD0721"
-				item: "powah:reactor_starter"
+				id: "782346DA46DDC3ED"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(powah:furnator_starter)item(powah:furnator_basic)item(powah:furnator_hardened)item(powah:furnator_blazing)item(powah:furnator_niotic)item(powah:furnator_spirited)item(powah:furnator_nitro))"
+					}
+				}
+				title: "Any Tier of Furnator"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			title: "Furnator"
+			x: -2.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "724FAC4F05DF724F"
+			dependencies: ["2075DA1441582475"]
+			description: ["The Magmator burns Lava for energy."]
+			id: "4147A53BC0AA2B96"
 			tasks: [{
-				id: "19F1316969EC2569"
-				item: "powah:furnator_basic"
+				id: "7B54BAC09116CC35"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(powah:magmator_starter)item(powah:magmator_basic)item(powah:magmator_hardened)item(powah:magmator_blazing)item(powah:magmator_niotic)item(powah:magmator_spirited)item(powah:magmator_nitro))"
+					}
+				}
+				title: "Any Tier of Magmator"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			title: "Magmator"
+			x: -1.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "5280CCE2E6A6965B"
+			dependencies: ["2075DA1441582475"]
+			description: ["Thermo Generators generate energy when they are placed on top of a heat source. The better the heat source, the more energy is produced."]
+			id: "51069B54E6DF95C3"
 			tasks: [{
-				id: "2064CFA51A0B8FF0"
-				item: "powah:magmator_basic"
+				id: "3477A66C55C4DAEA"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(powah:thermo_generator_starter)item(powah:thermo_generator_basic)item(powah:thermo_generator_hardened)item(powah:thermo_generator_blazing)item(powah:thermo_generator_niotic)item(powah:thermo_generator_spirited)item(powah:thermo_generator_nitro))"
+					}
+				}
+				title: "Any Tier of Thermo Generator"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			title: "Thermo Generator"
+			x: 0.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "73604F1E925E28FC"
+			dependencies: ["2075DA1441582475"]
+			description: ["The Solar Panel harnasses the heat from the sun to generate energy."]
+			id: "739BB105DFA32B6E"
 			tasks: [{
-				id: "66D79229E4A76BEA"
-				item: "powah:thermo_generator_basic"
+				id: "72DE425AB8CF1A5B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(powah:solar_panel_starter)item(powah:solar_panel_basic)item(powah:solar_panel_hardened)item(powah:solar_panel_blazing)item(powah:solar_panel_niotic)item(powah:solar_panel_spirited)item(powah:solar_panel_nitro))"
+					}
+				}
+				title: "Any Tier of Solar Panel"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			title: "Solar Panel"
+			x: 1.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "30802F551F071247"
+			dependencies: ["2075DA1441582475"]
+			description: ["The Reactor is the best power generator in the whole mod! Just feed it with uraninite, coal, redstone and dry ice, add a bucket of water and you're ready to go! Just a couple of these should last you your entire playthrough!"]
+			id: "6776E3E499E0B435"
 			tasks: [{
-				id: "6179EEC26763DA2D"
-				item: "powah:solar_panel_basic"
+				id: "389525B3C83E6621"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(powah:reactor_starter)item(powah:reactor_basic)item(powah:reactor_hardened)item(powah:reactor_blazing)item(powah:reactor_niotic)item(powah:reactor_spirited)item(powah:reactor_nitro))"
+					}
+				}
+				title: "Any Tier of Reactor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			title: "Reactor"
+			x: 2.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "7DFCEF620664188A"
+			dependencies: ["5CC975FBC46AA181"]
+			description: ["The Alternator converts SU into FE. The faster the rpm, the more FE you'll get and it'll cost as much stress."]
+			id: "39025928341CAEF0"
+			subtitle: "SU -> FE"
 			tasks: [{
-				id: "0CBE7D0568D2F938"
-				item: "powah:reactor_basic"
+				id: "75B07DED788D736E"
+				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			title: "Crafts \\& Additions"
+			x: 4.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "417004CD0C32BB80"
+			dependencies: ["5CC975FBC46AA181"]
+			description: [
+				"New age's way is a little more complicated. You'll need a Generator Coil surrounded with Magnet Blocks and have a Carbon Brush infront of it. Now just feed it with some rotation from the other side and you'll get FE from the carbon brush!"
+				""
+				"The better magnet blocks you use the more efficiency you get (more fe). Keep in mind that as you upgrade the magnet blocks, it'll require more stress."
+				""
+				"These are stackable horizontally by the way..."
+			]
+			icon: "create_new_age:generator_coil"
+			id: "62A6FE716F87F30C"
+			subtitle: "SU -> FE"
 			tasks: [{
-				id: "4D80CE9FCC8186F3"
-				item: "powah:furnator_hardened"
+				id: "0CD6B21D1EA02803"
+				item: "create_new_age:generator_coil"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			title: "New Age"
+			x: 2.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "70C5518C4658D4BF"
+			dependencies: ["5178941FBA1D7E71"]
+			description: ["The Agronomic Sourcelink generates source from crop and tree growth within 15 blocks. You can have this in your mystical agriculture farm for example and it will generate enough source to last you a while."]
+			id: "02D486712977ABEE"
 			tasks: [{
-				id: "531C834E41E6C764"
-				item: "powah:magmator_hardened"
+				id: "1D35FD44EA34EC45"
+				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "49238AFC54248B8B"
+			dependencies: ["5178941FBA1D7E71"]
+			description: ["The Volcanic Sourcelink burns fuel dropped near it and generates source from them."]
+			id: "10232033DC9C9B35"
 			tasks: [{
-				id: "4FCCB659FD3A320F"
-				item: "powah:thermo_generator_hardened"
+				id: "12F1FA7939570932"
+				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "1ED8E9529328A953"
+			dependencies: ["5178941FBA1D7E71"]
+			description: ["The Alchemical Sourcelink consumes potions in adjacent potion jars to generate source."]
+			id: "77065603DC0914F1"
 			tasks: [{
-				id: "4DAEF3D2D2DDE51C"
-				item: "powah:solar_panel_hardened"
+				id: "6BAAA79E07B9EF46"
+				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "2DC6C0CFFD17ACC8"
+			dependencies: ["5178941FBA1D7E71"]
+			description: ["The Vitalic Sourcelink generates source whenever mobs die near it. It's ideal to have one of these in your mob farm."]
+			id: "6E797EAE36AD2A90"
 			tasks: [{
-				id: "456A1493E7F921E4"
-				item: "powah:reactor_hardened"
+				id: "2F584311030B925E"
+				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "418401CC549FDB8E"
+			dependencies: ["5178941FBA1D7E71"]
+			description: [
+				"The Mycelial Sourcelink consumes edible items near it to generate source. Source Berry foods are the best for it."
+				"Additionally, it will convert nearby Dirt into Mycelium."
+			]
+			id: "337224BF9890AB32"
 			tasks: [{
-				id: "5E573E57AF4F0FD6"
-				item: "powah:furnator_blazing"
+				id: "440597A493252D71"
+				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "0698315D3A5A922F"
+			dependencies: ["0ED810859C0D9ABC"]
+			description: ["Let's check out the ways to generate source."]
+			icon: "ars_nouveau:sourceberry_bush"
+			id: "5178941FBA1D7E71"
 			tasks: [{
-				id: "691C998A5A896F1F"
-				item: "powah:magmator_blazing"
-				type: "item"
+				id: "4C3962E412A65D8A"
+				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -1.0d
+			title: "Generating Source"
+			x: -2.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "7B73201350C18EC3"
+			dependencies: ["137050D427528FD7"]
+			description: ["Let's check out the ways to generate mana."]
+			icon: "botania:mana_pylon"
+			id: "4413713087052E7A"
 			tasks: [{
-				id: "0058B98F693E6325"
-				item: "powah:thermo_generator_blazing"
-				type: "item"
+				id: "7B1E5D7DE5833D8A"
+				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 0.0d
+			title: "Generating Mana"
+			x: 2.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "08D457100EB33019"
+			dependencies: ["4413713087052E7A"]
+			description: ["The Endoflame burns fuel dropped near it to generate some mana."]
+			id: "6A631E364F404935"
 			tasks: [{
-				id: "0456863EE6CA257A"
-				item: "powah:solar_panel_blazing"
+				id: "187C7C0D7B277B65"
+				item: "botania:endoflame"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "6F44D4FF7E377DB7"
+			dependencies: ["4413713087052E7A"]
+			description: ["Hydroangeous suck up still water in a 3x3 area to generate mana. Although it might look like the better option at first, they do have a durability, which means they won't really last forever."]
+			id: "24000C178282D9EB"
 			tasks: [{
-				id: "55117582AA370F29"
-				item: "powah:reactor_blazing"
+				id: "2B7F75D17D2ADD00"
+				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "23CC1854967A4920"
+			dependencies: ["4413713087052E7A"]
+			description: [
+				"Now that you are in mid-game or even late-game you should now be able the make the Wither Aconite."
+				"This slowly drains a nether star dropped near it to generate HUGE amounts of mana. just 4 of these can make so much mana that it can fill a mana pool in seconds!"
+			]
+			id: "5515A209A090A19A"
 			tasks: [{
-				id: "111C303260D222D6"
-				item: "powah:furnator_niotic"
+				id: "0BDD3CD8812C6238"
+				item: "mythicbotany:wither_aconite"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "1AB31D36D8270C1E"
-			tasks: [{
-				id: "1BD0E977922AC90A"
-				item: "powah:magmator_niotic"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "610300719D54CD67"
-			tasks: [{
-				id: "7A4E7F23F4BF1DC7"
-				item: "powah:thermo_generator_niotic"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "1B5105E4B826B047"
-			tasks: [{
-				id: "6B1AC5A19794505B"
-				item: "powah:solar_panel_niotic"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "7DE83BD49A803368"
-			tasks: [{
-				id: "555E0C6F80AB05BB"
-				item: "powah:reactor_niotic"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "54207F7C6B86B50A"
-			tasks: [{
-				id: "202BFB32DDE8AD0E"
-				item: "powah:furnator_spirited"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "4D936BDDF28F9455"
-			tasks: [{
-				id: "217A50BCE74FC13A"
-				item: "powah:magmator_spirited"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "356469EBA5793577"
-			tasks: [{
-				id: "29E85E3C2086E858"
-				item: "powah:thermo_generator_spirited"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "65D6A719399D426E"
-			tasks: [{
-				id: "57CC11B134F99B65"
-				item: "powah:solar_panel_spirited"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "1BB209431E0A9657"
-			tasks: [{
-				id: "4AD7DFD1FC88F7C3"
-				item: "powah:reactor_spirited"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "01B2E91AE52BCA0B"
-			tasks: [{
-				id: "2B7D184BE89F2532"
-				item: "powah:furnator_nitro"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "7D471AE2A4718C88"
-			tasks: [{
-				id: "0163633BDEB5328D"
-				item: "powah:magmator_nitro"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "5FAC0A4D9700F1CA"
-			tasks: [{
-				id: "11BFD332F36E47C6"
-				item: "powah:thermo_generator_nitro"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "539E71573883199A"
-			tasks: [{
-				id: "66C969C74B86C948"
-				item: "powah:solar_panel_nitro"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["129F7F97D4982F0E"]
-			id: "505EBDCFDF8820A4"
-			tasks: [{
-				id: "6E6F12B0ED669B3E"
-				item: "powah:reactor_nitro"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 2.0d
+			x: 2.5d
+			y: 5.0d
 		}
 	]
 	title: "Power Gen"

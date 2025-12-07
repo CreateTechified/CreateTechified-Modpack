@@ -1,0 +1,13 @@
+name = "C&U: 3d Wrench model"
+filename = "CU - 3d Wrench.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "2fbdc992fc9c57be0c4e4d83bc7d612ad5b13e9aed850c28d323d02e41a2e4dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4765635
+project-id = 915672

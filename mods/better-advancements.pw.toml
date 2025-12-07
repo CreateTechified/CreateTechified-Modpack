@@ -1,0 +1,13 @@
+name = "Better Advancements"
+filename = "BetterAdvancements-Forge-1.20.1-0.4.2.25.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "7932d80b8cce7854d0c7b5a42a629a2d2237adb6faec004bf78e4e4920f5f2e0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6010300
+project-id = 272515

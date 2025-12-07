@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "transportation"
+	group: "656E41FF236CAAAE"
+	icon: "immersive_aircraft:biplane"
+	id: "2813EAD0464D53B1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Transportation"
+}

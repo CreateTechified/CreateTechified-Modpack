@@ -1,0 +1,13 @@
+name = "Create Style Redstone Pen"
+filename = "Create Style Redstone Pen v2.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "4dd3ef755dabd1432b2fee30e30b599c755187a68dbcd8368ebb42c2b8593d4a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3874305
+project-id = 623468

@@ -1,15 +1,16 @@
 {
 	icon: {
-		Count: 1b
-		id: "sophisticatedstorage:iron_chest"
+		Count: 1
+		id: "sophisticatedstorage:diamond_chest"
 		tag: {
-			accentColor: 16383998
-			mainColor: 16383998
+			RepairCost: 0
+			accentColor: 3847130
+			mainColor: 3847130
 		}
 	}
-	id: "74DF622671969ADE"
+	id: "5E5EE4803739676B"
 	loot_size: 1
 	order_index: 1
 	rewards: [ ]
-	title: "Uncommon Reward"
+	title: "&bRare Reward&r"
 }

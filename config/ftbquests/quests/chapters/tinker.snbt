@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinker"
+	group: "3E3560FC912EE8E9"
+	icon: "tconstruct:smeltery_controller"
+	id: "2B661B080B462869"
+	order_index: 17
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tinker's Construct"
+}

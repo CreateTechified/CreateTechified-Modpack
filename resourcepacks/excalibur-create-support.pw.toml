@@ -1,0 +1,13 @@
+name = "Excalibur | Create Support"
+filename = "Excalibur_Create Addon_Forge_v2.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "2d75a79f4fa35e6f6d3746757413e2a321553b780bb533595ae48ec41230c3d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6952905
+project-id = 1304196

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "baubley_heart_canisters"
+	group: "3E3560FC912EE8E9"
+	icon: "bhc:red_heart_canister"
+	id: "7E97D7D738D3E0A3"
+	order_index: 19
+	quest_links: [ ]
+	quests: [ ]
+	title: "Baubley Heart Canisters"
+}

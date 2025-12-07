@@ -1,0 +1,13 @@
+name = "AE2 Blackout"
+filename = "AE2Blackout-1.20.1-V1.1.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "01282ffd7c001aae3969786415d4f052507cb69c3c9d3ba5980fdd3f181adeb2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7242436
+project-id = 1060372

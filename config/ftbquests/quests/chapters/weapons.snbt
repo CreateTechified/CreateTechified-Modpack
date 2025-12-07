@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "weapons"
-	group: "0E07056EFBE12555"
+	group: "656E41FF236CAAAE"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "alloyed:steel_sword"
 		tag: {
 			Damage: 0
 		}
 	}
-	id: "34DF63374619E099"
-	order_index: 4
+	id: "03308C1E87C865EC"
+	order_index: 8
 	quest_links: [ ]
 	quests: [ ]
 	title: "Weapons"

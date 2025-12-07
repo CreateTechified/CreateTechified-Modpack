@@ -1,0 +1,13 @@
+name = "ExtendedAE"
+filename = "ExtendedAE-1.20-1.4.8-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "785814ba9df44360d2af0f4edfea952fb13eeb338fbee6260411f5f5310bdac2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7144417
+project-id = 892005

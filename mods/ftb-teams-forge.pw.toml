@@ -1,0 +1,13 @@
+name = "FTB Teams (NeoForge)"
+filename = "ftb-teams-forge-2001.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "d6e3cf8d0bdae7f848764428c613ae2528aecf9d275b4169eb8e15da87b41863"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6130786
+project-id = 404468

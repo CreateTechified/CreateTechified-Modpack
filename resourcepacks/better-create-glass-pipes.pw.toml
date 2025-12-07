@@ -1,0 +1,13 @@
+name = "Better Create Glass Pipes"
+filename = "Better Create Glass Pipes.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "4c50e6ee1d836eb216a77baeaa32dbdded5454bf207add293fac80504fb3d3ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6783738
+project-id = 1309363

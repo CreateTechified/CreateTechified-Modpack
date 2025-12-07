@@ -1,0 +1,13 @@
+name = "e4mc"
+filename = "e4mc_minecraft-forge-5.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "2d5f3790bd1c69614d14be0e01d62874f593f53bf5fde490b9279158725b306e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6710382
+project-id = 849519

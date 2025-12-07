@@ -1,0 +1,13 @@
+name = "KubeJS Thermal"
+filename = "kubejs-thermal-2001.1.10-build.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "560a5cb11d8bcdbb4dc1ae63a33e721a8ca5e10d4a5368bb03d08e96f118f60d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5002992
+project-id = 421694

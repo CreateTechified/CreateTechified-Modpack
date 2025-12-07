@@ -1,0 +1,13 @@
+name = "Alexis 64's Coins"
+filename = "alexis_64_coins-0.3.2.4-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "36cbdfeffe795c5aaf4a79a493f1de36118fff57c67239b46f38d8b6c69d0f36"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6680544
+project-id = 1078965

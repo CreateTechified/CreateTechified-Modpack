@@ -1,0 +1,13 @@
+name = "Hunger Overflow"
+filename = "hungeroverflow-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "f9693eafa06cf38b15530d5f617d06e4b635b17c0bd195bc1fb684ce4383fb82"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6677931
+project-id = 1291063

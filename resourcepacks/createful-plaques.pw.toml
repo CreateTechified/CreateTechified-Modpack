@@ -1,0 +1,13 @@
+name = "Createful Plaques"
+filename = "Createful-plaques-1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "6e3f79cb06a7f9312c06901c9203a44dfdbd58936c3c374adcfd75ef708a4a93"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5876110
+project-id = 920589

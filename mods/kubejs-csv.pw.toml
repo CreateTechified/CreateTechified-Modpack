@@ -1,0 +1,13 @@
+name = "KubeJS CSV"
+filename = "kubejs_csv-1.18.2~1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "98e6e1e34d6c7c09e6e6e631acd38b9d34437c7c26e78918f45cd5e69058e517"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6985835
+project-id = 1344035

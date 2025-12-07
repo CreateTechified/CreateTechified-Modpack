@@ -1,0 +1,13 @@
+name = "Create Touch-Ups"
+filename = "Create Touch-Ups v1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "e2528669801eced1b87ba5ff826e3919282b5f1c6a6290d75223b6d88d5d39b4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6292157
+project-id = 656900

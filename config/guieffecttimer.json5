@@ -1,0 +1,11 @@
+{
+	// The red RGB value for the timer text.
+	// min: 0, max: 255
+	"timerColourRGB_R": 255,
+	// The green RGB value for the timer text.
+	// min: 0, max: 255
+	"timerColourRGB_G": 255,
+	// The blue RGB value for the timer text.
+	// min: 0, max: 255
+	"timerColourRGB_B": 255
+}

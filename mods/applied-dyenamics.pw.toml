@@ -1,0 +1,13 @@
+name = "Applied Dyenamics"
+filename = "appdyenamics-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "cdcbf5ed3721841df437338d10539842394100303c80d4375be3abff2bd89a47"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7113305
+project-id = 1364839

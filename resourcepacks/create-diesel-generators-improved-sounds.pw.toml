@@ -1,0 +1,13 @@
+name = "Create: Diesel Generators IMPROVED SOUNDS"
+filename = "GOOD_SOUNDS_for_diesel_generators.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "8eadc5e741183130bb578e3c80ef606e36ddcf70793d0866acb3b023bfedb828"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6512067
+project-id = 1112333

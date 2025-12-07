@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_6_quantum_madness"
+	group: "36F144C26FB8788B"
+	icon: "techifiedcore:quantum_mechanism"
+	id: "7AAB88A54F4BE060"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["65AB97E360677E0F"]
+		icon: "techifiedcore:binary_mechanism"
+		id: "50C701487012257E"
+		shape: "rsquare"
+		size: 2.0d
+		subtitle: "Path towards The Quantum Mechanism"
+		tasks: [{
+			id: "4E8B31A02B785E23"
+			type: "checkmark"
+		}]
+		title: "Chapter 6"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Chapter 6: Quantum Madness"
+}

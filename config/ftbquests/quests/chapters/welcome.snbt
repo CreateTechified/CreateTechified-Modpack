@@ -4,28 +4,54 @@
 	filename: "welcome"
 	group: ""
 	icon: "minecraft:oak_sapling"
-	id: "07418574BA879145"
+	id: "3A62D22336EA8F76"
+	images: [
+		{
+			height: 2.0d
+			image: "create_techified:textures/quests/welcome.png"
+			rotation: 0.0d
+			width: 9.82d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/oak_sapling"
+			rotation: -15.0d
+			width: 1.5d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/oak_sapling"
+			rotation: 15.0d
+			width: 1.5d
+			x: 5.5d
+			y: -6.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
 				"Welcome Engineer!"
-				"This is where your journey to {something} begins."
+				"This is where your journey to Quantum Technology begins."
 				"These quests are optional and not required to complete the modpack"
 			]
 			icon: "minecraft:oak_sapling"
-			id: "49C9C2B6540C16FA"
+			id: "0DCA62CA799770CF"
 			rewards: [{
 				count: 16
-				id: "26AB77207CB44684"
+				id: "117A00069D1BC8BC"
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
 			size: 3.0d
 			subtitle: "...to Create: Techified"
 			tasks: [{
-				id: "27874EBF6BE8ABD5"
+				id: "70863B3B2E3DA34C"
 				type: "checkmark"
 			}]
 			title: "Welcome!"
@@ -33,49 +59,23 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["49C9C2B6540C16FA"]
-			description: [
-				"In the Market section,"
-				"You can trade coins for items"
-				"Or trade items for coins"
-				"Isn't that amazing?"
-			]
-			icon: "minecraft:emerald"
-			id: "789CFC4456789B95"
-			rewards: [{
-				count: 16
-				id: "540645124C70DB50"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 1.25d
-			subtitle: "A Market.. without any crowd..."
-			tasks: [{
-				id: "1FC60D04DB644880"
-				type: "checkmark"
-			}]
-			title: "Market"
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["49C9C2B6540C16FA"]
+			dependencies: ["0DCA62CA799770CF"]
 			description: [
 				"These are just some tips to improve your playthrough"
-				"Its not anything required to complete the modpack"
+				"It's not anything required to complete the modpack"
 			]
 			icon: "minecraft:golden_apple"
-			id: "118517EDA69074BA"
+			id: "567D36A755794A73"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5FED37AD777160B3"
-				table_id: 5160577797538844976L
+				id: "3B0973D5A87817E1"
+				table_id: 6314004382541227345L
 				type: "random"
 			}]
 			size: 1.25d
 			subtitle: "Quality of life stuff here!"
 			tasks: [{
-				id: "1AF0CBB589D08F99"
+				id: "723304A1B4FDFFD2"
 				type: "checkmark"
 			}]
 			title: "Miscellaneous"
@@ -83,39 +83,48 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["49C9C2B6540C16FA"]
+			dependencies: ["0DCA62CA799770CF"]
 			description: [
-				"This is just a guide to progress through the modpack,"
-				"You don't need to follow this :)"
+				"In the Market section,"
+				"You can trade coins for items"
+				"Or trade items for coins"
+				"Isn't that amazing?"
 			]
-			icon: "create:cogwheel"
-			id: "75708DA1EB1FE0F9"
+			icon: "minecraft:emerald"
+			id: "1AB3C7FDD88C4586"
 			rewards: [{
-				id: "1960985AEAFE351D"
-				item: "biomesoplenty:wildflower"
+				count: 16
+				id: "1D22BCE0596336A1"
+				item: "techifiedcore:techified_coin"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 2.0d
-			subtitle: "The Main Progression for the modpack"
+			size: 1.25d
+			subtitle: "A Market... without any crowd..."
 			tasks: [{
-				id: "6E5A0D2F216E0A76"
+				id: "68B734F4B24A9C98"
 				type: "checkmark"
 			}]
-			title: "Main Questline"
-			x: 0.0d
-			y: 3.0d
+			title: "Market"
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["49C9C2B6540C16FA"]
+			dependencies: ["0DCA62CA799770CF"]
 			description: [
 				"&lMisc commands:&r"
 				""
 				"/kickme - Kicks yourself from server (in case the bed bug ever returns)"
 				""
+				"/trashcan - Opens an inventory where items get deleted when placed in and closed"
+				""
+				"/leaderboard - Not implemented yet"
+				""
+				"/rec - Not implemented yet"
+				""
 				"/hat - Puts item currently in main hand in helmet slot making it your 'hat'"
 				""
-				"/nick <name...> - Changes nickname in chat"
+				"/nick <name…> - Changes nickname in chat"
+				""
 				"{@pagebreak}"
 				"&lTeleport commands:&r"
 				""
@@ -156,16 +165,40 @@
 				"/tpadeny <id> - Denies request (will have a button for it on screen)"
 			]
 			icon: "computercraft:computer_command"
-			id: "3AC062F5635B887C"
+			id: "4E73012C687E01BC"
 			size: 1.25d
 			subtitle: "These commands can sometimes come in handy!"
 			tasks: [{
-				id: "31FD387A4E1A0000"
+				id: "61B64A96C00F3E0E"
 				type: "checkmark"
 			}]
 			title: "Useful Commands"
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["0DCA62CA799770CF"]
+			description: [
+				"This is just a guide to progress through the modpack,"
+				"You don't need to follow this :)"
+			]
+			icon: "create:cogwheel"
+			id: "2F3E5E900EA4AB0C"
+			rewards: [{
+				id: "56B010073019AC6F"
+				item: "biomeswevegone:violet_leather_flower"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Main Progression for the modpack"
+			tasks: [{
+				id: "364B6DF03F0E5259"
+				type: "checkmark"
+			}]
+			title: "Main Questline"
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: "Welcome"

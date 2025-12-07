@@ -1,0 +1,13 @@
+name = "Stony Cliffs Are Cool"
+filename = "Stony Cliffs FML v1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "f07a2db60d1e3dea51bd640fae23277df64239a09b45e919be0a47a31bec72c3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5568636
+project-id = 939211

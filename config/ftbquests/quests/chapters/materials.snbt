@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "materials"
+	group: "656E41FF236CAAAE"
+	icon: {
+		Count: 1
+		id: "tconstruct:tough_binding"
+		tag: {
+			Material: "tconstruct:cobalt"
+		}
+	}
+	id: "6A95C24EE2EC5A85"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Materials"
+}

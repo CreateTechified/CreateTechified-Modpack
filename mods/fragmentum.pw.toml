@@ -1,0 +1,13 @@
+name = "Fragmentum (Forge)"
+filename = "fragmentum-forge-1.20.1-0.2.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "767ae636715fe6912b6c595af325b3904a07ffe38e42884a5bd471c1356948bc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7131693
+project-id = 1123970

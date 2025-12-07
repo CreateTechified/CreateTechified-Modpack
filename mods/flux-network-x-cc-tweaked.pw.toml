@@ -1,0 +1,13 @@
+name = "Flux Network x CC: Tweaked"
+filename = "fncct-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "f40b45b0020002e39b7dd4c55b1a7299fac3b9331b61a8b15c38bcc6933a18b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6296330
+project-id = 1212735

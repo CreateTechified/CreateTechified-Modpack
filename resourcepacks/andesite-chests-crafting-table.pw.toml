@@ -1,0 +1,13 @@
+name = "Andesite Chests + Crafting Table"
+filename = "Andesite_Chests+Crafting_Table_1_20_1.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "9b4a1af2c4c45061d6240f2b15d3cd48a035c44208138fac4e13b6a52e141bc4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6454020
+project-id = 709390

@@ -1,0 +1,13 @@
+name = "Tom's Create Style"
+filename = "Tom's Create Style 1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "d4c55d7d0cb8b987a40f934e06a184eec087daa49fd47303c1887d2c898d33f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6530912
+project-id = 1265683
