@@ -3531,8 +3531,8 @@ hash = "0b84d2148795df2d500832b4561099d766e47c61ac0a8445d4ea653c40725a2c"
 metafile = true
 
 [[files]]
-file = "mods/destroy.pw.toml"
-hash = "48fd06285c239122763f9d2823461a0e6332c61305aa6341de82ad89c0d32fdc"
+file = "mods/destroy-chemistry.pw.toml"
+hash = "a9c530016a4bf33c4683f0e1d4ab30fccb9567ebbf3f245b21f13b2db8fcbe6a"
 metafile = true
 
 [[files]]
