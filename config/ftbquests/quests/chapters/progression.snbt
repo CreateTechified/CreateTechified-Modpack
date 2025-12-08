@@ -57,7 +57,7 @@
 			tasks: [{
 				count: 64L
 				id: "45C0817508986E86"
-				item: { Count: 64, id: "create:andesite_alloy" }
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			title: "Preparing for the next chapter"
@@ -84,7 +84,7 @@
 			tasks: [{
 				count: 64L
 				id: "1C4FC482936E165A"
-				item: { Count: 64, id: "techifiedcore:kinetic_mechanism" }
+				item: "techifiedcore:kinetic_mechanism"
 				type: "item"
 			}]
 			title: "Preparing for the next chapter"
@@ -110,7 +110,7 @@
 			tasks: [{
 				count: 64L
 				id: "086492D95E1D6AC7"
-				item: { Count: 64, id: "create:precision_mechanism" }
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			title: "Preparing for the next chapter"
@@ -137,7 +137,7 @@
 			tasks: [{
 				count: 64L
 				id: "71A5B365A04C66EF"
-				item: { Count: 64, id: "techifiedcore:t1_radiant_mechanism" }
+				item: "techifiedcore:t1_radiant_mechanism"
 				type: "item"
 			}]
 			title: "Preparing for the next chapter"
@@ -164,7 +164,7 @@
 			tasks: [{
 				count: 64L
 				id: "136941BF05FB40D5"
-				item: { Count: 64, id: "techifiedcore:industrial_mechanism" }
+				item: "techifiedcore:industrial_mechanism"
 				type: "item"
 			}]
 			title: "Preparing for the next chapter"
@@ -191,7 +191,7 @@
 			tasks: [{
 				count: 64L
 				id: "1D7E1B075A5B6057"
-				item: { Count: 64, id: "techifiedcore:binary_mechanism" }
+				item: "techifiedcore:binary_mechanism"
 				type: "item"
 			}]
 			title: "Preparing for the next chapter"

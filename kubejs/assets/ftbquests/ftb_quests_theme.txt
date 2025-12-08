@@ -2,7 +2,7 @@
 background: questing:textures/blackbg.png; color=#00000000; tint=#00000000
 
 [*]
-background: questing:textures/stars2.png; color=#83800080; tile_size=64
+background: questing:textures/stars.png; color=#0d1b2a; tile_size=64
 
 widget_border: #00000000
 widget_background: #00000000

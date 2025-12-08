@@ -1,4 +1,5 @@
 {
+	autofocus_id: "56E3147151DFC075"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_05_a_new_beginning"
@@ -39,10 +40,10 @@
 			y: -15.0d
 		}
 		{
-			height: 2.0d
+			height: 1.5d
 			image: "create:block/chute_hole"
 			rotation: 0.0d
-			width: 2.0d
+			width: 1.5d
 			x: 0.0d
 			y: -8.5d
 		}
@@ -344,13 +345,20 @@
 		{
 			dependencies: ["1B079A4C5D0D07CA"]
 			id: "56E3147151DFC075"
-			shape: "square"
+			shape: "none"
 			size: 1.25d
-			tasks: [{
-				id: "7410B9FC1F9F5554"
-				item: "create:mechanical_press"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7410B9FC1F9F5554"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "69063E996ED39C18"
+					item: "create:depot"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -8.5d
 		}
@@ -432,11 +440,18 @@
 			dependencies: ["0B49F1DB8C7EAFA3"]
 			id: "2A59603A6CD076F1"
 			size: 1.25d
-			tasks: [{
-				id: "0DF18AC85F09AA8D"
-				item: "create:mechanical_mixer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0DF18AC85F09AA8D"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "34C996A2027DDC35"
+					item: "create:basin"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -11.5d
 		}

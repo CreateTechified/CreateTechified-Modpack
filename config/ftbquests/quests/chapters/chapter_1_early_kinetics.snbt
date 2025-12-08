@@ -5,13 +5,21 @@
 	group: "36F144C26FB8788B"
 	icon: "techifiedcore:kinetic_mechanism"
 	id: "1D7B045E414A91D2"
+	images: [{
+		height: 3.0d
+		image: "create_techified:textures/quests/placard.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["419075020FC3857D"]
 		icon: "create:andesite_alloy"
 		id: "794A69FC10453128"
-		shape: "rsquare"
+		shape: "none"
 		size: 2.0d
 		subtitle: "Path towards The Kinetic Mechanism"
 		tasks: [{

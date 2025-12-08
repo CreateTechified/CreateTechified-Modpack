@@ -1,4 +1,5 @@
 {
+	autofocus_id: "77EE9FE26CAD58FA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "challenges"
@@ -9,8 +10,38 @@
 		tag: { }
 	}
 	id: "749EFED7B06A3284"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:tasks/botania_mana_empty"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: [
+			"Some of these challenges can be a walk in the park."
+			"Some can be an Avengers level threat."
+			""
+			"Good luck."
+		]
+		icon: {
+			Count: 1
+			id: "petrolpark:badge/competition_winner"
+			tag: { }
+		}
+		id: "77EE9FE26CAD58FA"
+		shape: "none"
+		size: 1.5d
+		tasks: [{
+			id: "53C53384B76AD84E"
+			title: "Challenges"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Challenges"
 }

@@ -1,12 +1,265 @@
 {
-	default_hide_dependency_lines: false
+	autofocus_id: "220652E2435C567C"
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "hostile_neural_networks"
 	group: "3E3560FC912EE8E9"
 	icon: "hostilenetworks:sim_chamber"
 	id: "02E3AA1F646A2B18"
+	images: [
+		{
+			height: 2.5d
+			image: "hostilenetworks:block/loot_fabricator_north"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "create_techified:textures/quests/hostile_neural_networks.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -6.5d
+		}
+	]
 	order_index: 12
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["220652E2435C567C"]
+			id: "77FD6690AAE291BE"
+			size: 1.5d
+			subtitle: "..God damn it why are we out of power again?"
+			tasks: [{
+				id: "5E2050ED9D028A5A"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			title: "Doing something with these predictions!"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["220652E2435C567C"]
+			description: ["You can get these from any data model of mobs from the Nether."]
+			id: "6F63F635E0A53900"
+			tasks: [{
+				id: "61361A67740DF370"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["220652E2435C567C"]
+			description: ["You can get these from any data model of mobs from the End."]
+			id: "68059F24B4431454"
+			tasks: [{
+				id: "33A6CF521E887A47"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["220652E2435C567C"]
+			description: ["You can get these from any data model of mobs from the Twilight Forest."]
+			id: "1591259ABE8DD77B"
+			tasks: [{
+				id: "0EEF59863C8BF3DE"
+				item: "hostilenetworks:twilight_prediction"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["220652E2435C567C"]
+			description: ["You can get these from any data model of mobs from the Overworld."]
+			id: "000E379A1C766E53"
+			tasks: [{
+				id: "7EE2CB351F642959"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A56F2EBE2D1A14D"]
+			description: [
+				"Trust me, you'll need multiple boatloads of Prediction Matrixes."
+				""
+				"I personally use an ME Requester with an Export Bus :D"
+				""
+				"This machine usually eats about 256 FE/t on most data models, but you can check the tooltip for the exact amount."
+				"This machine will also level up your data models slowly!"
+			]
+			icon: "hostilenetworks:sim_chamber"
+			id: "220652E2435C567C"
+			shape: "none"
+			size: 1.5d
+			subtitle: "WHOA its the funny things"
+			tasks: [
+				{
+					id: "72E8770F947C9B51"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+				{
+					id: "3DE2BAAAC45F8598"
+					item: "hostilenetworks:prediction_matrix"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "hostilenetworks:prediction_matrix"
+			id: "7F55DD3D3D6A345D"
+			size: 1.5d
+			tasks: [{
+				id: "0951E82453506930"
+				type: "checkmark"
+			}]
+			title: "Welcome to Hostile Neural Networks!"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7F55DD3D3D6A345D"]
+			id: "417203CEABAA1A71"
+			size: 1.25d
+			tasks: [{
+				id: "190DC42EFC5C2FB0"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F55DD3D3D6A345D"]
+			id: "2059F0F1CB4806DD"
+			size: 1.25d
+			tasks: [{
+				id: "0668CB5EF0498BF4"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2059F0F1CB4806DD"
+				"417203CEABAA1A71"
+			]
+			description: ["I don't really care which one you pick, but you will need one for this guide. I know, crazy. I suggest collecting as many as possible, but if you only want a couple, try to get the important ones. I'll try to make those ones required.. :smile:"]
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:blaze"
+					}
+				}
+			}
+			id: "1A56F2EBE2D1A14D"
+			shape: "none"
+			size: 1.5d
+			subtitle: "wHY ARE THERE SO MANY"
+			tasks: [{
+				id: "61BD9DC309135E9B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(createtechified:resources/hnn/basic_models)"
+					}
+				}
+				title: "Any basic HNN data model"
+				type: "item"
+			}]
+			title: "Data Models"
+			x: 0.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["220652E2435C567C"]
+			hide_dependency_lines: true
+			id: "04410139D042671A"
+			size: 1.5d
+			tasks: [{
+				id: "20EEBB26E13EC842"
+				title: "The Important Predictions"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["04410139D042671A"]
+			id: "2D11DC5DA4263FC6"
+			tasks: [{
+				id: "124486EDE951512A"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["04410139D042671A"]
+			id: "7E4383FD40F78720"
+			tasks: [{
+				id: "6E53E8EA42743A97"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:warden"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["04410139D042671A"]
+			id: "4B2DCF7A9A745C2E"
+			tasks: [{
+				id: "068D1C2311149068"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ender_dragon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
 	title: "Hostile Neural Networks"
 }

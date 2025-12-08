@@ -1,4 +1,5 @@
 {
+	autofocus_id: "266224998D95A58A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "forestry"
@@ -106,6 +107,93 @@
 	id: "1971267803C41550"
 	order_index: 11
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: [
+			"Yep, this is the same Forestry that you probably played in 2014."
+			""
+			"You might be wondering, \"Wait, this is modern modded minecraft! Why are you using Forestry?!\""
+			"Well, it's mainly because the Productive series of mods aren't maintained at all on 1.20.x anymore, and they make the game run horribly slow. This was our solution to that. Also, using Forestry helps cut down on lag because the bees are not entities. They're actually just particles coming out of the hives."
+			""
+			"I'm going to be real here. None of us have ever used Forestry, so this guide may not be up to par for some people. (Potato dont yell at me)"
+			"Please remember that contributions to the pack are always accepted, and that we can use someone with experience's help with this guide."
+		]
+		icon: {
+			Count: 1
+			id: "forestry:bee_drone_ge"
+			tag: {
+				ForgeCaps: {
+					Parent: {
+						analyzed: 0b
+						genome: {
+							"forestry:activity": {
+								active: "forestry:activity_diurnal"
+								inactive: "forestry:activity_diurnal"
+							}
+							"forestry:bee_effect": {
+								active: "forestry:bee_effect_none"
+								inactive: "forestry:bee_effect_none"
+							}
+							"forestry:bee_species": {
+								active: "forestry:bee_forest"
+								inactive: "forestry:bee_forest"
+							}
+							"forestry:cave_dwelling": {
+								active: "forestry:falsed"
+								inactive: "forestry:falsed"
+							}
+							"forestry:fertility": {
+								active: "forestry:3i"
+								inactive: "forestry:3i"
+							}
+							"forestry:flower_type": {
+								active: "forestry:flower_type_vanilla"
+								inactive: "forestry:flower_type_vanilla"
+							}
+							"forestry:humidity_tolerance": {
+								active: "forestry:tolerance_none"
+								inactive: "forestry:tolerance_none"
+							}
+							"forestry:lifespan": {
+								active: "forestry:20id"
+								inactive: "forestry:20id"
+							}
+							"forestry:pollination": {
+								active: "forestry:10i"
+								inactive: "forestry:10i"
+							}
+							"forestry:speed": {
+								active: "forestry:0.3fd"
+								inactive: "forestry:0.3fd"
+							}
+							"forestry:temperature_tolerance": {
+								active: "forestry:tolerance_down_1d"
+								inactive: "forestry:tolerance_down_1d"
+							}
+							"forestry:territory": {
+								active: "forestry:9_6_9"
+								inactive: "forestry:9_6_9"
+							}
+							"forestry:tolerates_rain": {
+								active: "forestry:falsed"
+								inactive: "forestry:falsed"
+							}
+						}
+						health: 20
+						max_heath: 20
+						pristine: 1b
+					}
+				}
+			}
+		}
+		id: "266224998D95A58A"
+		subtitle: "Oh god, not this mod again!"
+		tasks: [{
+			id: "23BF30D38509DA8F"
+			type: "checkmark"
+		}]
+		title: "Welcome to Forestry!"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Forestry"
 }

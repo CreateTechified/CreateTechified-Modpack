@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "professions"
+	group: "2D007E8714384E03"
+	icon: "techifiedcore:profession_card"
+	id: "7D2594CA43E9AE39"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Professions"
+}
