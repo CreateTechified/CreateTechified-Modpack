@@ -3239,6 +3239,11 @@ hash = "6a061b0d77ac43ff73824bc82d94bd678962823ad0baa6e800d58bad57461e1c"
 metafile = true
 
 [[files]]
+file = "mods/better-end-cities-vanilla.pw.toml"
+hash = "91d52628607cd3360bc24cc52c963bb95136b1317bd9e3bf2b6159dcfa87573d"
+metafile = true
+
+[[files]]
 file = "mods/better-fusion-reactor-for-mekanism.pw.toml"
 hash = "e2b02d8753eca5cd2b5e541790140b78901f4f690c09c3e48257a543d09ed0ee"
 metafile = true
@@ -3591,6 +3596,11 @@ metafile = true
 [[files]]
 file = "mods/double-doors.pw.toml"
 hash = "5bc0b47cc80d2893c85a20dd184929cf8d3eb3980b90658eeb2cb71398efe92d"
+metafile = true
+
+[[files]]
+file = "mods/dramatic-doors.pw.toml"
+hash = "d5e99d10b77820007cd65c78de9a572814dab691435726cf611707f81c55bb36"
 metafile = true
 
 [[files]]
@@ -4394,6 +4404,11 @@ hash = "8ff6c7e48c75feffd68723e4d8c3dc6612c4845487757463826baec78667c79d"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "bd56624f00cda9e544281d2c247e5479f6f1c315f8d8088cfee86e8b61f69dac"
+metafile = true
+
+[[files]]
 file = "mods/plushie-mod.pw.toml"
 hash = "cbd7d3606cbe245ea85cee36229e1a72021bedec62f16f4968d2a069d206d704"
 metafile = true
@@ -4779,6 +4794,11 @@ hash = "57f119a4c2bd6786bfb4919bcf826e0bca672800100718ca30d2816a92bfc07e"
 metafile = true
 
 [[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "7e730b980a0d8aea7a573b53885e7b3939912868da20b780673fbbaed4d1f488"
+metafile = true
+
+[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "40086ec149582223e5eb525b84d302f9f47f4ecd071f942d3a7ec5ba333f6e98"
 metafile = true
@@ -4786,6 +4806,26 @@ metafile = true
 [[files]]
 file = "mods/waterdripsound.pw.toml"
 hash = "4d489cfdf91df56536a474acc12ba40f5ebc6f37f0179a1fce1525df050cd4e2"
+metafile = true
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+hash = "f23d71ce94d45ce3c219c66196680081cd445ed28048f9a9a8217c52669644b2"
+metafile = true
+
+[[files]]
+file = "mods/watermedia-yt-plugin.pw.toml"
+hash = "0a124d952a34781cc8b511bd56a7468b24e75c5a8d3510a016737525594965a7"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "0528731743be7df4ba5a8952264861920f90475ed333f914fddea75473cd6012"
+metafile = true
+
+[[files]]
+file = "mods/watervision.pw.toml"
+hash = "1e9bcc140af33caf45c8c2e42eb1917e9884b0f26bc99179b6102c5071b1aa87"
 metafile = true
 
 [[files]]
@@ -4801,6 +4841,11 @@ metafile = true
 [[files]]
 file = "mods/william-wythers-overhauled-overworld.pw.toml"
 hash = "8653477606ce139f0cdbcfe9c209d840b5835824051c577406ea6453d623e2c5"
+metafile = true
+
+[[files]]
+file = "mods/wither-spawn-animation.pw.toml"
+hash = "c55cabe115058c9c9acf582a951601b98695eccfcfd83ac7da9d923c58c4f258"
 metafile = true
 
 [[files]]
