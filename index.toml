@@ -3364,6 +3364,11 @@ hash = "21254d2f33cfc9b90b304a3aeacff5572cf78729c0fb93a3103a80a445f7c791"
 metafile = true
 
 [[files]]
+file = "mods/connected-glass.pw.toml"
+hash = "26cfffc0a877575da0a92aa6481b8afd2c9a847731c0f80fe9f8fa014dac87ba"
+metafile = true
+
+[[files]]
 file = "mods/connectivity.pw.toml"
 hash = "3426d2a57e450b4d78679b7b98b3d88e7095346eb4b93aacc964334983167b05"
 metafile = true
@@ -3459,6 +3464,11 @@ hash = "20c56622d3aedda9205ef077d266d81e08a10e118b4c34b4e4a0429db18187ad"
 metafile = true
 
 [[files]]
+file = "mods/create-encased.pw.toml"
+hash = "5b2c34be48b89edad127b4d73b9fb2ef7bd18739e631cb0a98810394b6a7b8eb"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "92e11eada64dd182e1685fea64d677b0f40343f0eebf011aa82c3f77b57cb5ab"
 metafile = true
@@ -3486,6 +3496,11 @@ metafile = true
 [[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "1fe106cedbdc2ca09daf7b4adf24adfb0267e9f88cf316629946cf6883eb2a57"
+metafile = true
+
+[[files]]
+file = "mods/create-pattern-schematics.pw.toml"
+hash = "b629e1961449382a5240354a78dd6c4167d65c4da01f1cb0ac3360a96ce3d429"
 metafile = true
 
 [[files]]
@@ -3526,6 +3541,11 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "57010a37808297abbf6b95fb4c8eef788e4a12ba40183459f68e87598542e777"
+metafile = true
+
+[[files]]
+file = "mods/createutilities.pw.toml"
+hash = "6c7227ee4c936e705290bd69185833ad6343ffb836da39817ad82ab2fb1b13c1"
 metafile = true
 
 [[files]]
@@ -3686,6 +3706,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "6ffd6b6a02aefaaf0e0e870abc9485ce87d7a6b702bc6b8efe4e62631a0c14f6"
+metafile = true
+
+[[files]]
+file = "mods/etched.pw.toml"
+hash = "c9f73e2b93b64fb0c44fbbde6245a5d5934143d6c4b9cc9829e3ba62c02ead4e"
 metafile = true
 
 [[files]]
